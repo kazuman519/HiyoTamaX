@@ -1,7 +1,10 @@
 #include "AppDelegate.h"
-#include "HazimariScene.h"
+#include "OkaSceneLayer.h"
 
 USING_NS_CC;
+
+static const int SCREEN_WIDTH = 1136;
+static const int SCREEN_HEIGHT = 640;
 
 AppDelegate::AppDelegate() {
 
@@ -37,6 +40,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
         glview = GLViewImpl::create("My Game");
         director->setOpenGLView(glview);
     }
+    glview->setDesignResolutionSize(SCREEN_WIDTH, SCREEN_HEIGHT, ResolutionPolicy::SHOW_ALL);
 
     // turn on display FPS
     director->setDisplayStats(true);
@@ -47,7 +51,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
     register_all_packages();
 
     // create a scene. it's an autorelease object
-    auto scene = HazimariScene::createScene();
+    auto scene = OkaSceneLayer::createScene();
 
     // run
     director->runWithScene(scene);
