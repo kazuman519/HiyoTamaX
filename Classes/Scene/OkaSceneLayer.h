@@ -11,21 +11,21 @@
 
 #include "cocos2d.h"
 
-class Oka : public cocos2d::Layer
+class OkaSceneLayer : public cocos2d::Layer
 {
 public:
     static cocos2d::Scene* createScene();
     
     virtual bool init();
     
-    CREATE_FUNC(Oka);
+    CREATE_FUNC(OkaSceneLayer);
     
 private:
     cocos2d::Size mGamenSize;
-    cocos2d::Vec2 mGamenPosition;
     
-    void initBackground();
+    void initHaikei();
     void initButton();
+    void initLogo();
     
     void hajimariCallback();
 };
