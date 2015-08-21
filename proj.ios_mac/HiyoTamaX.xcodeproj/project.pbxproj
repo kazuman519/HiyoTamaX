@@ -296,6 +296,7 @@
 		A43951F21B87590000B82821 /* btn6_1.png in Resources */ = {isa = PBXBuildFile; fileRef = A43951071B87590000B82821 /* btn6_1.png */; };
 		A43951F31B87590000B82821 /* btn6_2-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43951081B87590000B82821 /* btn6_2-hd.png */; };
 		A43951F41B87590000B82821 /* btn6_2.png in Resources */ = {isa = PBXBuildFile; fileRef = A43951091B87590000B82821 /* btn6_2.png */; };
+		A43951F81B875A0600B82821 /* HTMOkaScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A43951F61B875A0600B82821 /* HTMOkaScene.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -625,6 +626,8 @@
 		A43951071B87590000B82821 /* btn6_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn6_1.png; sourceTree = "<group>"; };
 		A43951081B87590000B82821 /* btn6_2-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn6_2-hd.png"; sourceTree = "<group>"; };
 		A43951091B87590000B82821 /* btn6_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn6_2.png; sourceTree = "<group>"; };
+		A43951F61B875A0600B82821 /* HTMOkaScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HTMOkaScene.cpp; sourceTree = "<group>"; };
+		A43951F71B875A0600B82821 /* HTMOkaScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMOkaScene.h; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -765,6 +768,7 @@
 			children = (
 				46880B8419C43A87006E1F66 /* AppDelegate.cpp */,
 				46880B8519C43A87006E1F66 /* AppDelegate.h */,
+				A43951F51B8759B000B82821 /* Scene */,
 				46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */,
 				46880B8719C43A87006E1F66 /* HelloWorldScene.h */,
 				A43950131B86FB4B00B82821 /* HazimariScene.cpp */,
@@ -1125,6 +1129,15 @@
 				A43951091B87590000B82821 /* btn6_2.png */,
 			);
 			path = Zukan;
+			sourceTree = "<group>";
+		};
+		A43951F51B8759B000B82821 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				A43951F61B875A0600B82821 /* HTMOkaScene.cpp */,
+				A43951F71B875A0600B82821 /* HTMOkaScene.h */,
+			);
+			path = Scene;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1509,6 +1522,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
+				A43951F81B875A0600B82821 /* HTMOkaScene.cpp in Sources */,
 				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				A43950151B86FB4B00B82821 /* HazimariScene.cpp in Sources */,
