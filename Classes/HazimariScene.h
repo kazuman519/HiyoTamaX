@@ -11,14 +11,20 @@
 
 #include "cocos2d.h"
 
-class Hazimari : public cocos2d::Layer
+class HazimariScene : public cocos2d::Layer
 {
 public:
     static cocos2d::Scene* createScene();
     
     virtual bool init();
     
-    CREATE_FUNC(Hazimari);
+    CREATE_FUNC(HazimariScene);
+    
+private:
+    cocos2d::Size mGamenSize;
+    cocos2d::Vec2 mGamenPosition;
+    
+    void initHaikei();
 };
 
 #endif /* defined(__HiyoTamaX__HazimariScene__) */
