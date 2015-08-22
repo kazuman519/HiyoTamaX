@@ -287,6 +287,7 @@
 		A43953031B88D9E200B82821 /* niwatori_odoroku.png in Resources */ = {isa = PBXBuildFile; fileRef = A43952FF1B88D9E200B82821 /* niwatori_odoroku.png */; };
 		A43953041B88D9E200B82821 /* niwatori_tsukareta.png in Resources */ = {isa = PBXBuildFile; fileRef = A43953001B88D9E200B82821 /* niwatori_tsukareta.png */; };
 		A43953061B88D9F800B82821 /* btn_game_start.png in Resources */ = {isa = PBXBuildFile; fileRef = A43953051B88D9F800B82821 /* btn_game_start.png */; };
+		A43953091B88E8AF00B82821 /* NoharaSceneLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A43953071B88E8AF00B82821 /* NoharaSceneLayer.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -608,6 +609,8 @@
 		A43952FF1B88D9E200B82821 /* niwatori_odoroku.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = niwatori_odoroku.png; sourceTree = "<group>"; };
 		A43953001B88D9E200B82821 /* niwatori_tsukareta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = niwatori_tsukareta.png; sourceTree = "<group>"; };
 		A43953051B88D9F800B82821 /* btn_game_start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_game_start.png; sourceTree = "<group>"; };
+		A43953071B88E8AF00B82821 /* NoharaSceneLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NoharaSceneLayer.cpp; sourceTree = "<group>"; };
+		A43953081B88E8AF00B82821 /* NoharaSceneLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoharaSceneLayer.h; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -1028,6 +1031,8 @@
 				A43951F71B875A0600B82821 /* OkaSceneLayer.h */,
 				A43952141B88CC1600B82821 /* KoyaSceneLayer.cpp */,
 				A43952151B88CC1600B82821 /* KoyaSceneLayer.h */,
+				A43953071B88E8AF00B82821 /* NoharaSceneLayer.cpp */,
+				A43953081B88E8AF00B82821 /* NoharaSceneLayer.h */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -1493,6 +1498,7 @@
 			files = (
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				A43951F81B875A0600B82821 /* OkaSceneLayer.cpp in Sources */,
+				A43953091B88E8AF00B82821 /* NoharaSceneLayer.cpp in Sources */,
 				A43952161B88CC1600B82821 /* KoyaSceneLayer.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
