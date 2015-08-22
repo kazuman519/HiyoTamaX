@@ -27,7 +27,7 @@ private:
     void initButton();
     void initLogo();
     
-    void hajimariCallback();
+    void gameStartCallback(Ref* sender);
 };
 
 #endif /* defined(__HiyoTamaX__HTMOkaScene__) */

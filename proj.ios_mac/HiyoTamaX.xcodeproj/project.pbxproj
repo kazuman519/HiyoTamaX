@@ -264,10 +264,6 @@
 		A43951D21B87590000B82821 /* bg_oka-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950E61B87590000B82821 /* bg_oka-568h@2x.png */; };
 		A43951D31B87590000B82821 /* bg_oka-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950E71B87590000B82821 /* bg_oka-hd.png */; };
 		A43951D41B87590000B82821 /* bg_oka.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950E81B87590000B82821 /* bg_oka.png */; };
-		A43951D51B87590000B82821 /* btn_game_hajimari_off-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950E91B87590000B82821 /* btn_game_hajimari_off-hd.png */; };
-		A43951D61B87590000B82821 /* btn_game_hajimari_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950EA1B87590000B82821 /* btn_game_hajimari_off.png */; };
-		A43951D71B87590000B82821 /* btn_game_hajimari_on-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950EB1B87590000B82821 /* btn_game_hajimari_on-hd.png */; };
-		A43951D81B87590000B82821 /* btn_game_hajimari_on.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950EC1B87590000B82821 /* btn_game_hajimari_on.png */; };
 		A43951D91B87590000B82821 /* logo_hiyotama-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950ED1B87590000B82821 /* logo_hiyotama-hd.png */; };
 		A43951DA1B87590000B82821 /* logo_hiyotama.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950EE1B87590000B82821 /* logo_hiyotama.png */; };
 		A43951DB1B87590000B82821 /* bg_zukan_shousai-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950F01B87590000B82821 /* bg_zukan_shousai-hd.png */; };
@@ -297,6 +293,10 @@
 		A43951F31B87590000B82821 /* btn6_2-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43951081B87590000B82821 /* btn6_2-hd.png */; };
 		A43951F41B87590000B82821 /* btn6_2.png in Resources */ = {isa = PBXBuildFile; fileRef = A43951091B87590000B82821 /* btn6_2.png */; };
 		A43951F81B875A0600B82821 /* OkaSceneLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A43951F61B875A0600B82821 /* OkaSceneLayer.cpp */; };
+		A43952101B877AEF00B82821 /* btn_game_start_off-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A439520C1B877AEF00B82821 /* btn_game_start_off-hd.png */; };
+		A43952111B877AEF00B82821 /* btn_game_start_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A439520D1B877AEF00B82821 /* btn_game_start_off.png */; };
+		A43952121B877AEF00B82821 /* btn_game_start_on-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A439520E1B877AEF00B82821 /* btn_game_start_on-hd.png */; };
+		A43952131B877AEF00B82821 /* btn_game_start_on.png in Resources */ = {isa = PBXBuildFile; fileRef = A439520F1B877AEF00B82821 /* btn_game_start_on.png */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -594,10 +594,6 @@
 		A43950E61B87590000B82821 /* bg_oka-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_oka-568h@2x.png"; sourceTree = "<group>"; };
 		A43950E71B87590000B82821 /* bg_oka-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_oka-hd.png"; sourceTree = "<group>"; };
 		A43950E81B87590000B82821 /* bg_oka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_oka.png; sourceTree = "<group>"; };
-		A43950E91B87590000B82821 /* btn_game_hajimari_off-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_game_hajimari_off-hd.png"; sourceTree = "<group>"; };
-		A43950EA1B87590000B82821 /* btn_game_hajimari_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_game_hajimari_off.png; sourceTree = "<group>"; };
-		A43950EB1B87590000B82821 /* btn_game_hajimari_on-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_game_hajimari_on-hd.png"; sourceTree = "<group>"; };
-		A43950EC1B87590000B82821 /* btn_game_hajimari_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_game_hajimari_on.png; sourceTree = "<group>"; };
 		A43950ED1B87590000B82821 /* logo_hiyotama-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_hiyotama-hd.png"; sourceTree = "<group>"; };
 		A43950EE1B87590000B82821 /* logo_hiyotama.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_hiyotama.png; sourceTree = "<group>"; };
 		A43950F01B87590000B82821 /* bg_zukan_shousai-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_zukan_shousai-hd.png"; sourceTree = "<group>"; };
@@ -628,6 +624,10 @@
 		A43951091B87590000B82821 /* btn6_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn6_2.png; sourceTree = "<group>"; };
 		A43951F61B875A0600B82821 /* OkaSceneLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OkaSceneLayer.cpp; sourceTree = "<group>"; };
 		A43951F71B875A0600B82821 /* OkaSceneLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OkaSceneLayer.h; sourceTree = "<group>"; };
+		A439520C1B877AEF00B82821 /* btn_game_start_off-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_game_start_off-hd.png"; sourceTree = "<group>"; };
+		A439520D1B877AEF00B82821 /* btn_game_start_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_game_start_off.png; sourceTree = "<group>"; };
+		A439520E1B877AEF00B82821 /* btn_game_start_on-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_game_start_on-hd.png"; sourceTree = "<group>"; };
+		A439520F1B877AEF00B82821 /* btn_game_start_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_game_start_on.png; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -1085,13 +1085,13 @@
 		A43950E51B87590000B82821 /* Oka */ = {
 			isa = PBXGroup;
 			children = (
+				A439520C1B877AEF00B82821 /* btn_game_start_off-hd.png */,
+				A439520D1B877AEF00B82821 /* btn_game_start_off.png */,
+				A439520E1B877AEF00B82821 /* btn_game_start_on-hd.png */,
+				A439520F1B877AEF00B82821 /* btn_game_start_on.png */,
 				A43950E61B87590000B82821 /* bg_oka-568h@2x.png */,
 				A43950E71B87590000B82821 /* bg_oka-hd.png */,
 				A43950E81B87590000B82821 /* bg_oka.png */,
-				A43950E91B87590000B82821 /* btn_game_hajimari_off-hd.png */,
-				A43950EA1B87590000B82821 /* btn_game_hajimari_off.png */,
-				A43950EB1B87590000B82821 /* btn_game_hajimari_on-hd.png */,
-				A43950EC1B87590000B82821 /* btn_game_hajimari_on.png */,
 				A43950ED1B87590000B82821 /* logo_hiyotama-hd.png */,
 				A43950EE1B87590000B82821 /* logo_hiyotama.png */,
 			);
@@ -1298,7 +1298,9 @@
 				A439512B1B87590000B82821 /* hiyo24-hd.png in Resources */,
 				A43951281B87590000B82821 /* hiyo22.png in Resources */,
 				A439519C1B87590000B82821 /* egg31.png in Resources */,
+				A43952101B877AEF00B82821 /* btn_game_start_off-hd.png in Resources */,
 				A43951761B87590000B82821 /* egg14.png in Resources */,
+				A43952131B877AEF00B82821 /* btn_game_start_on.png in Resources */,
 				A43951AD1B87590000B82821 /* egg4-hd.png in Resources */,
 				A43951621B87590000B82821 /* niwatori_fever1.png in Resources */,
 				A43951891B87590000B82821 /* egg23-hd.png in Resources */,
@@ -1308,7 +1310,6 @@
 				A43951521B87590000B82821 /* hiyo41.png in Resources */,
 				A43951C01B87590000B82821 /* bg_koya-hd.png in Resources */,
 				A43951C71B87590000B82821 /* img_atarashii_tag-hd.png in Resources */,
-				A43951D81B87590000B82821 /* btn_game_hajimari_on.png in Resources */,
 				A43951BB1B87590000B82821 /* egg8-hd.png in Resources */,
 				A43951101B87590000B82821 /* hiyo11.png in Resources */,
 				A439514B1B87590000B82821 /* hiyo39-hd.png in Resources */,
@@ -1412,7 +1413,6 @@
 				A439514A1B87590000B82821 /* hiyo38.png in Resources */,
 				A43951DA1B87590000B82821 /* logo_hiyotama.png in Resources */,
 				A43951471B87590000B82821 /* hiyo37-hd.png in Resources */,
-				A43951D51B87590000B82821 /* btn_game_hajimari_off-hd.png in Resources */,
 				A43951421B87590000B82821 /* hiyo34.png in Resources */,
 				A43951DD1B87590000B82821 /* btn1_1-hd.png in Resources */,
 				A43951B51B87590000B82821 /* egg5-hd.png in Resources */,
@@ -1475,9 +1475,11 @@
 				A43951871B87590000B82821 /* egg22-hd.png in Resources */,
 				A43951E91B87590000B82821 /* btn4_1-hd.png in Resources */,
 				5087E78417EB970100C73F5D /* Icon-57.png in Resources */,
+				A43952121B877AEF00B82821 /* btn_game_start_on-hd.png in Resources */,
 				A439514F1B87590000B82821 /* hiyo40-hd.png in Resources */,
 				5087E77E17EB970100C73F5D /* Default.png in Resources */,
 				A439516C1B87590000B82821 /* egg1.png in Resources */,
+				A43952111B877AEF00B82821 /* btn_game_start_off.png in Resources */,
 				A439519F1B87590000B82821 /* egg33-hd.png in Resources */,
 				A439518B1B87590000B82821 /* egg24-hd.png in Resources */,
 				A43951781B87590000B82821 /* egg15.png in Resources */,
@@ -1492,12 +1494,10 @@
 				50EF629717ECD46A001EB2F8 /* Icon-58.png in Resources */,
 				A43951A61B87590000B82821 /* egg36.png in Resources */,
 				A439510E1B87590000B82821 /* hiyo10.png in Resources */,
-				A43951D71B87590000B82821 /* btn_game_hajimari_on-hd.png in Resources */,
 				A43951191B87590000B82821 /* hiyo16-hd.png in Resources */,
 				A43951651B87590000B82821 /* niwatori_surprise-hd.png in Resources */,
 				A43951B41B87590000B82821 /* egg42.png in Resources */,
 				A43951F31B87590000B82821 /* btn6_2-hd.png in Resources */,
-				A43951D61B87590000B82821 /* btn_game_hajimari_off.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

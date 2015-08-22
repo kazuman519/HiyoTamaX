@@ -7,8 +7,11 @@
 //
 
 #include "OkaSceneLayer.h"
+#include <ui/CocosGUI.h>
 
 USING_NS_CC;
+
+using namespace ui;
 
 enum {
     Z_HAIKEI,
@@ -35,6 +38,7 @@ bool OkaSceneLayer::init()
     mGamenSize = Director::getInstance()->getVisibleSize();
     
     initHaikei();
+    initButton();
     
     return true;
 }
@@ -44,6 +48,21 @@ void OkaSceneLayer::initHaikei()
     auto haikei = Sprite::create("bg_oka-hd.png");
     haikei->setPosition(Vec2(mGamenSize.width/2,
                              mGamenSize.height/2));
-    
     this->addChild(haikei);
+}
+
+void OkaSceneLayer::initButton()
+{
+    Button* startButton = Button::create();
+    startButton->setTouchEnabled(true);
+    startButton->loadTextureNormal("btn_game_start_off-hd.png");
+    startButton->setPosition(Vec2(mGamenSize.width/2,
+                                        mGamenSize.height/2 - 20));
+    startButton->addTouchEventListener(CC_CALLBACK_1(OkaSceneLayer::gameStartCallback, this));
+    this->addChild(startButton);
+}
+
+void OkaSceneLayer::gameStartCallback(Ref* sender)
+{
+    log("push button");
 }
