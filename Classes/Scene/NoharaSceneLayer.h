@@ -18,6 +18,8 @@ public:
     
     virtual bool init();
     
+    void update(float frame);
+    
     CREATE_FUNC(NoharaSceneLayer);
     
 private:

@@ -32,6 +32,7 @@ Scene* NoharaSceneLayer::createScene()
     return scene;
 }
 
+
 #pragma mark - init
 
 bool NoharaSceneLayer::init()
@@ -45,6 +46,8 @@ bool NoharaSceneLayer::init()
     initHaikei();
     
     initTimer();
+    
+    this->scheduleUpdate();
     
     return true;
 }
@@ -64,4 +67,12 @@ void NoharaSceneLayer::initTimer()
     timerSprite->setAnchorPoint(Vec2(0, 1.0f));
     timerSprite->setPosition(Vec2(0, mGamenSize.height));
     this->addChild(timerSprite, Z_UI);
+}
+
+
+#pragma mark - update
+
+void NoharaSceneLayer::update(float frame)
+{
+    log("fa-------------------wwww");
 }
