@@ -20,6 +20,9 @@ enum {
     Z_LOGO
 };
 
+
+#pragma mark - create
+
 Scene* OkaSceneLayer::createScene()
 {
     auto scene = Scene::create();
@@ -29,6 +32,9 @@ Scene* OkaSceneLayer::createScene()
     
     return scene;
 }
+
+
+#pragma mark - init
 
 bool OkaSceneLayer::init()
 {
@@ -62,6 +68,9 @@ void OkaSceneLayer::initButton()
     startButton->addTouchEventListener(CC_CALLBACK_1(OkaSceneLayer::gameStartCallback, this));
     this->addChild(startButton);
 }
+
+
+#pragma mark - callback
 
 void OkaSceneLayer::gameStartCallback(Ref* sender)
 {

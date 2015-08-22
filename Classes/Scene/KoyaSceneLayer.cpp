@@ -19,6 +19,9 @@ enum {
     Z_BUTTON
 };
 
+
+#pragma mark - create
+
 Scene* KoyaSceneLayer::createScene()
 {
     auto scene = Scene::create();
@@ -28,6 +31,9 @@ Scene* KoyaSceneLayer::createScene()
     
     return scene;
 }
+
+
+#pragma mark - init
 
 bool KoyaSceneLayer::init()
 {
@@ -39,3 +45,4 @@ bool KoyaSceneLayer::init()
     
     return true;
 }
+
