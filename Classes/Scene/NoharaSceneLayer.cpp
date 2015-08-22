@@ -12,6 +12,13 @@
 USING_NS_CC;
 using namespace ui;
 
+enum {
+    Z_HAIKEI,
+    Z_NIWATORI,
+    Z_UI,
+    Z_TOUCH_ARROW
+};
+
 
 #pragma mark - create
 
@@ -34,6 +41,8 @@ bool NoharaSceneLayer::init()
     }
     
     mGamenSize = Director::getInstance()->getVisibleSize();
+    
+    initHaikei();
     
     return true;
 }
