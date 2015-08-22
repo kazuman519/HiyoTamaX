@@ -55,7 +55,7 @@ bool OkaSceneLayer::init()
 
 void OkaSceneLayer::initHaikei()
 {
-    auto haikei = Sprite::create("bg_oka-hd.png");
+    auto haikei = Sprite::create("bg_oka.png");
     haikei->setPosition(Vec2(mGamenSize.width/2,
                              mGamenSize.height/2));
     this->addChild(haikei);

@@ -49,3 +49,7 @@ bool KoyaSceneLayer::init()
     return true;
 }
 
+void KoyaSceneLayer::initHaikei()
+{
+    
+}

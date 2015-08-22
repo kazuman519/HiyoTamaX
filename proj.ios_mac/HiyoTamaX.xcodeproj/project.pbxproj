@@ -242,11 +242,7 @@
 		A43951BC1B87590000B82821 /* egg8.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950CC1B87590000B82821 /* egg8.png */; };
 		A43951BD1B87590000B82821 /* egg9-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950CD1B87590000B82821 /* egg9-hd.png */; };
 		A43951BE1B87590000B82821 /* egg9.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950CE1B87590000B82821 /* egg9.png */; };
-		A43951BF1B87590000B82821 /* bg_koya-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950D11B87590000B82821 /* bg_koya-568h@2x.png */; };
-		A43951C01B87590000B82821 /* bg_koya-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950D21B87590000B82821 /* bg_koya-hd.png */; };
 		A43951C11B87590000B82821 /* bg_koya.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950D31B87590000B82821 /* bg_koya.png */; };
-		A43951C21B87590000B82821 /* bg_zukan-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950D51B87590000B82821 /* bg_zukan-568h@2x.png */; };
-		A43951C31B87590000B82821 /* bg_zukan-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950D61B87590000B82821 /* bg_zukan-hd.png */; };
 		A43951C41B87590000B82821 /* bg_zukan.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950D71B87590000B82821 /* bg_zukan.png */; };
 		A43951C51B87590000B82821 /* img_atarashii_arrow-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950D81B87590000B82821 /* img_atarashii_arrow-hd.png */; };
 		A43951C61B87590000B82821 /* img_atarashii_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950D91B87590000B82821 /* img_atarashii_arrow.png */; };
@@ -261,8 +257,6 @@
 		A43951CF1B87590000B82821 /* pictureBookBg1-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950E21B87590000B82821 /* pictureBookBg1-568h@2x.png */; };
 		A43951D01B87590000B82821 /* pictureBookBg1-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950E31B87590000B82821 /* pictureBookBg1-hd.png */; };
 		A43951D11B87590000B82821 /* pictureBookBg1.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950E41B87590000B82821 /* pictureBookBg1.png */; };
-		A43951D21B87590000B82821 /* bg_oka-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950E61B87590000B82821 /* bg_oka-568h@2x.png */; };
-		A43951D31B87590000B82821 /* bg_oka-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950E71B87590000B82821 /* bg_oka-hd.png */; };
 		A43951D41B87590000B82821 /* bg_oka.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950E81B87590000B82821 /* bg_oka.png */; };
 		A43951D91B87590000B82821 /* logo_hiyotama-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950ED1B87590000B82821 /* logo_hiyotama-hd.png */; };
 		A43951DA1B87590000B82821 /* logo_hiyotama.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950EE1B87590000B82821 /* logo_hiyotama.png */; };
@@ -573,11 +567,7 @@
 		A43950CC1B87590000B82821 /* egg8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = egg8.png; sourceTree = "<group>"; };
 		A43950CD1B87590000B82821 /* egg9-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "egg9-hd.png"; sourceTree = "<group>"; };
 		A43950CE1B87590000B82821 /* egg9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = egg9.png; sourceTree = "<group>"; };
-		A43950D11B87590000B82821 /* bg_koya-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_koya-568h@2x.png"; sourceTree = "<group>"; };
-		A43950D21B87590000B82821 /* bg_koya-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_koya-hd.png"; sourceTree = "<group>"; };
 		A43950D31B87590000B82821 /* bg_koya.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_koya.png; sourceTree = "<group>"; };
-		A43950D51B87590000B82821 /* bg_zukan-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_zukan-568h@2x.png"; sourceTree = "<group>"; };
-		A43950D61B87590000B82821 /* bg_zukan-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_zukan-hd.png"; sourceTree = "<group>"; };
 		A43950D71B87590000B82821 /* bg_zukan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_zukan.png; sourceTree = "<group>"; };
 		A43950D81B87590000B82821 /* img_atarashii_arrow-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_atarashii_arrow-hd.png"; sourceTree = "<group>"; };
 		A43950D91B87590000B82821 /* img_atarashii_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_atarashii_arrow.png; sourceTree = "<group>"; };
@@ -592,8 +582,6 @@
 		A43950E21B87590000B82821 /* pictureBookBg1-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pictureBookBg1-568h@2x.png"; sourceTree = "<group>"; };
 		A43950E31B87590000B82821 /* pictureBookBg1-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pictureBookBg1-hd.png"; sourceTree = "<group>"; };
 		A43950E41B87590000B82821 /* pictureBookBg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pictureBookBg1.png; sourceTree = "<group>"; };
-		A43950E61B87590000B82821 /* bg_oka-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_oka-568h@2x.png"; sourceTree = "<group>"; };
-		A43950E71B87590000B82821 /* bg_oka-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_oka-hd.png"; sourceTree = "<group>"; };
 		A43950E81B87590000B82821 /* bg_oka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_oka.png; sourceTree = "<group>"; };
 		A43950ED1B87590000B82821 /* logo_hiyotama-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_hiyotama-hd.png"; sourceTree = "<group>"; };
 		A43950EE1B87590000B82821 /* logo_hiyotama.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_hiyotama.png; sourceTree = "<group>"; };
@@ -1055,8 +1043,6 @@
 		A43950D01B87590000B82821 /* Koya */ = {
 			isa = PBXGroup;
 			children = (
-				A43950D11B87590000B82821 /* bg_koya-568h@2x.png */,
-				A43950D21B87590000B82821 /* bg_koya-hd.png */,
 				A43950D31B87590000B82821 /* bg_koya.png */,
 			);
 			path = Koya;
@@ -1065,8 +1051,6 @@
 		A43950D41B87590000B82821 /* Nohara */ = {
 			isa = PBXGroup;
 			children = (
-				A43950D51B87590000B82821 /* bg_zukan-568h@2x.png */,
-				A43950D61B87590000B82821 /* bg_zukan-hd.png */,
 				A43950D71B87590000B82821 /* bg_zukan.png */,
 				A43950D81B87590000B82821 /* img_atarashii_arrow-hd.png */,
 				A43950D91B87590000B82821 /* img_atarashii_arrow.png */,
@@ -1092,8 +1076,6 @@
 				A439520D1B877AEF00B82821 /* btn_game_start_off.png */,
 				A439520E1B877AEF00B82821 /* btn_game_start_on-hd.png */,
 				A439520F1B877AEF00B82821 /* btn_game_start_on.png */,
-				A43950E61B87590000B82821 /* bg_oka-568h@2x.png */,
-				A43950E71B87590000B82821 /* bg_oka-hd.png */,
 				A43950E81B87590000B82821 /* bg_oka.png */,
 				A43950ED1B87590000B82821 /* logo_hiyotama-hd.png */,
 				A43950EE1B87590000B82821 /* logo_hiyotama.png */,
@@ -1273,7 +1255,6 @@
 				A43951A91B87590000B82821 /* egg38-hd.png in Resources */,
 				A43951211B87590000B82821 /* hiyo2-hd.png in Resources */,
 				A43951661B87590000B82821 /* niwatori_surprise.png in Resources */,
-				A43951C21B87590000B82821 /* bg_zukan-568h@2x.png in Resources */,
 				A43951B01B87590000B82821 /* egg40.png in Resources */,
 				A43951A71B87590000B82821 /* egg37-hd.png in Resources */,
 				A439513A1B87590000B82821 /* hiyo30.png in Resources */,
@@ -1313,7 +1294,6 @@
 				A43951801B87590000B82821 /* egg19.png in Resources */,
 				A43951261B87590000B82821 /* hiyo21.png in Resources */,
 				A43951521B87590000B82821 /* hiyo41.png in Resources */,
-				A43951C01B87590000B82821 /* bg_koya-hd.png in Resources */,
 				A43951C71B87590000B82821 /* img_atarashii_tag-hd.png in Resources */,
 				A43951BB1B87590000B82821 /* egg8-hd.png in Resources */,
 				A43951101B87590000B82821 /* hiyo11.png in Resources */,
@@ -1323,7 +1303,6 @@
 				A439512E1B87590000B82821 /* hiyo25.png in Resources */,
 				A43951361B87590000B82821 /* hiyo29.png in Resources */,
 				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,
-				A43951C31B87590000B82821 /* bg_zukan-hd.png in Resources */,
 				A439518F1B87590000B82821 /* egg26-hd.png in Resources */,
 				A439512A1B87590000B82821 /* hiyo23.png in Resources */,
 				A43951BC1B87590000B82821 /* egg8.png in Resources */,
@@ -1410,7 +1389,6 @@
 				A43951531B87590000B82821 /* hiyo42-hd.png in Resources */,
 				50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */,
 				A43951381B87590000B82821 /* hiyo3.png in Resources */,
-				A43951BF1B87590000B82821 /* bg_koya-568h@2x.png in Resources */,
 				A43951391B87590000B82821 /* hiyo30-hd.png in Resources */,
 				A439517D1B87590000B82821 /* egg18-hd.png in Resources */,
 				A43951501B87590000B82821 /* hiyo40.png in Resources */,
@@ -1435,7 +1413,6 @@
 				A439510B1B87590000B82821 /* hiyo1-hd.png in Resources */,
 				A43951F01B87590000B82821 /* btn5_2.png in Resources */,
 				A43951EE1B87590000B82821 /* btn5_1.png in Resources */,
-				A43951D21B87590000B82821 /* bg_oka-568h@2x.png in Resources */,
 				A43951441B87590000B82821 /* hiyo35.png in Resources */,
 				A43951641B87590000B82821 /* niwatori_fever2.png in Resources */,
 				A43951681B87590000B82821 /* niwatori_tired.png in Resources */,
@@ -1458,7 +1435,6 @@
 				A43951F11B87590000B82821 /* btn6_1-hd.png in Resources */,
 				A43951741B87590000B82821 /* egg13.png in Resources */,
 				A43951E81B87590000B82821 /* btn3_2.png in Resources */,
-				A43951D31B87590000B82821 /* bg_oka-hd.png in Resources */,
 				A43951851B87590000B82821 /* egg21-hd.png in Resources */,
 				A439518C1B87590000B82821 /* egg24.png in Resources */,
 				A43951121B87590000B82821 /* hiyo12.png in Resources */,
