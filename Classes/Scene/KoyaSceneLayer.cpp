@@ -47,6 +47,7 @@ bool KoyaSceneLayer::init()
     mGamenSize = Director::getInstance()->getVisibleSize();
     
     initHaikei();
+    initNiwatori();
     
     return true;
 }
@@ -57,4 +58,16 @@ void KoyaSceneLayer::initHaikei()
     haikei->setPosition(Vec2(mGamenSize.width/2,
                              mGamenSize.height/2));
     this->addChild(haikei);
+}
+
+void KoyaSceneLayer::initNiwatori()
+{
+    auto niwatori = Sprite::create("niwatori.png");
+    niwatori->setPosition(Vec2(niwatori->getContentSize().width/3,
+                               niwatori->getContentSize().height/4));
+    this->addChild(niwatori);
+    
+    // 反転
+    auto flip = FlipX::create(true);
+    niwatori->runAction(flip);
 }
