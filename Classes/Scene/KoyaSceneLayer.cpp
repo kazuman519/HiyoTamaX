@@ -13,6 +13,12 @@ USING_NS_CC;
 
 using namespace ui;
 
+enum {
+    Z_HAIKEI,
+    Z_NIWATORI,
+    Z_BUTTON
+};
+
 Scene* KoyaSceneLayer::createScene()
 {
     auto scene = Scene::create();
@@ -28,6 +34,8 @@ bool KoyaSceneLayer::init()
     if (!Layer::init()) {
         return false;
     }
+    
+    mGamenSize = Director::getInstance()->getVisibleSize();
     
     return true;
 }

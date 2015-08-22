@@ -19,6 +19,21 @@ public:
     virtual bool init();
     
     CREATE_FUNC(KoyaSceneLayer);
+
+private:
+    cocos2d::Size mGamenSize;
+    
+    void initHaikei();
+    void initNiwatori();
+    void initAsobikataButton();
+    void initAsobuButton();
+    void initZukanButton();
+    void initModoruButton();
+    
+    void asobikataCallback(Ref* sender);
+    void asobuCallback(Ref* sender);
+    void zukanCallback(Ref* sender);
+    void modoruCallback(Ref* sender);
 };
 
 #endif /* defined(__HiyoTamaX__KoyaSceneLayer__) */
