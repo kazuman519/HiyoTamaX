@@ -44,6 +44,8 @@ bool NoharaSceneLayer::init()
     
     initHaikei();
     
+    initTimer();
+    
     return true;
 }
 
@@ -53,4 +55,13 @@ void NoharaSceneLayer::initHaikei()
     haikei->setPosition(Vec2(mGamenSize.width/2,
                              mGamenSize.height/2));
     this->addChild(haikei, Z_HAIKEI);
+}
+
+
+void NoharaSceneLayer::initTimer()
+{
+    auto timerSprite = Sprite::create("img_timer.png");
+    timerSprite->setAnchorPoint(Vec2(0, 1.0f));
+    timerSprite->setPosition(Vec2(0, mGamenSize.height));
+    this->addChild(timerSprite, Z_UI);
 }

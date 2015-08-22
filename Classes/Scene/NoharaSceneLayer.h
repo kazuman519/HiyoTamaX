@@ -26,7 +26,7 @@ private:
     void initHaikei();
     void initNiwatori();
     void initTouchArrow();
-    void initJikanBar();
+    void initTimer();
     void initTamagoNumLabel();
 };
 
