@@ -59,7 +59,7 @@ void KoyaSceneLayer::initHaikei()
     auto haikei = Sprite::create("bg_koya.png");
     haikei->setPosition(Vec2(mGamenSize.width/2,
                              mGamenSize.height/2));
-    this->addChild(haikei);
+    this->addChild(haikei, Z_HAIKEI);
 }
 
 void KoyaSceneLayer::initNiwatori()
@@ -67,7 +67,7 @@ void KoyaSceneLayer::initNiwatori()
     auto niwatori = Sprite::create("niwatori.png");
     niwatori->setPosition(Vec2(niwatori->getContentSize().width/3,
                                niwatori->getContentSize().height/4));
-    this->addChild(niwatori);
+    this->addChild(niwatori, Z_NIWATORI);
     
     // 反転
     auto flip = FlipX::create(true);
@@ -82,7 +82,7 @@ void KoyaSceneLayer::initAsobikataButton()
     button->setAnchorPoint(Vec2(0, 1.0));
     button->setPosition(Vec2(4, mGamenSize.height - 4));
     button->addTouchEventListener(CC_CALLBACK_1(KoyaSceneLayer::asobikataCallback, this));
-    this->addChild(button);
+    this->addChild(button, Z_BUTTON);
 }
 
 void KoyaSceneLayer::initAsobuButton()
@@ -94,7 +94,7 @@ void KoyaSceneLayer::initAsobuButton()
     button->setPosition(Vec2(mGamenSize.width - 4,
                              mGamenSize.height - 4));
     button->addTouchEventListener(CC_CALLBACK_1(KoyaSceneLayer::asobuCallback, this));
-    this->addChild(button);
+    this->addChild(button, Z_BUTTON);
 }
 
 #pragma mark - callback
