@@ -13,6 +13,9 @@ USING_NS_CC;
 
 using namespace ui;
 
+
+#pragma mark - enum
+
 enum {
     Z_HAIKEI,
     Z_NIWATORI,
