@@ -8,6 +8,7 @@
 
 #include "OkaSceneLayer.h"
 #include <ui/CocosGUI.h>
+#include "KoyaSceneLayer.h"
 
 USING_NS_CC;
 
@@ -64,5 +65,8 @@ void OkaSceneLayer::initButton()
 
 void OkaSceneLayer::gameStartCallback(Ref* sender)
 {
-    log("push button");
+    Scene *scene = KoyaSceneLayer::createScene();
+    TransitionFade* transition = TransitionFade::create(0.5f, scene);
+    
+    Director::getInstance()->replaceScene(transition);
 }
