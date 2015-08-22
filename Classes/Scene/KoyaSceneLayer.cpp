@@ -46,10 +46,15 @@ bool KoyaSceneLayer::init()
     
     mGamenSize = Director::getInstance()->getVisibleSize();
     
+    initHaikei();
+    
     return true;
 }
 
 void KoyaSceneLayer::initHaikei()
 {
-    
+    auto haikei = Sprite::create("bg_koya.png");
+    haikei->setPosition(Vec2(mGamenSize.width/2,
+                             mGamenSize.height/2));
+    this->addChild(haikei);
 }
