@@ -86,7 +86,7 @@ void OkaSceneLayer::initLogo()
 
 void OkaSceneLayer::gameStartCallback(Ref* sender)
 {
-    Scene *scene = KoyaSceneLayer::createScene();
+    Scene* scene = KoyaSceneLayer::createScene();
     TransitionFade* transition = TransitionFade::create(0.5f, scene);
     
     Director::getInstance()->replaceScene(transition);

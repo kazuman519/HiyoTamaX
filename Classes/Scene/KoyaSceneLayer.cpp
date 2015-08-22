@@ -8,6 +8,7 @@
 
 #include "KoyaSceneLayer.h"
 #include <ui/CocosGUI.h>
+#include "OkaSceneLayer.h"
 
 USING_NS_CC;
 
@@ -143,5 +144,8 @@ void KoyaSceneLayer::zukanCallback(Ref* sender)
 
 void KoyaSceneLayer::modoruCallback(Ref* sender)
 {
+    auto scene = OkaSceneLayer::createScene();
+    auto transition = TransitionFade::create(0.3f, scene);
     
+    Director::getInstance()->replaceScene(transition);
 }
