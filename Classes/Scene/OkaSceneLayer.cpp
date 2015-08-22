@@ -49,6 +49,7 @@ bool OkaSceneLayer::init()
     
     initHaikei();
     initButton();
+    initLogo();
     
     return true;
 }
@@ -63,7 +64,7 @@ void OkaSceneLayer::initHaikei()
 
 void OkaSceneLayer::initButton()
 {
-    Button* startButton = Button::create();
+    auto startButton = Button::create();
     startButton->setTouchEnabled(true);
     startButton->loadTextureNormal("btn_game_start.png");
     startButton->setPosition(Vec2(mGamenSize.width/2,
@@ -72,6 +73,14 @@ void OkaSceneLayer::initButton()
     this->addChild(startButton);
 }
 
+void OkaSceneLayer::initLogo()
+{
+    auto logo = Sprite::create("logo_hiyotama.png");
+    logo->setAnchorPoint(Vec2(0.5, 1.0));
+    logo->setPosition(Vec2(mGamenSize.width/2,
+                           mGamenSize.height - 50));
+    this->addChild(logo);
+}
 
 #pragma mark - callback
 
