@@ -11,7 +11,6 @@
 #include "OkaSceneLayer.h"
 
 USING_NS_CC;
-
 using namespace ui;
 
 
