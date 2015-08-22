@@ -9,6 +9,7 @@
 #include "KoyaSceneLayer.h"
 #include <ui/CocosGUI.h>
 #include "OkaSceneLayer.h"
+#include "NoharaSceneLayer.h"
 
 USING_NS_CC;
 using namespace ui;
@@ -142,7 +143,10 @@ void KoyaSceneLayer::asobikataCallback(Ref* sender)
 
 void KoyaSceneLayer::asobuCallback(Ref* sender)
 {
+    auto scene = NoharaSceneLayer::createScene();
+    auto transition = TransitionFade::create(0.4f, scene);
     
+    Director::getInstance()->replaceScene(transition);
 }
 
 void KoyaSceneLayer::zukanCallback(Ref* sender)
