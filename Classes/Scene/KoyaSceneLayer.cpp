@@ -48,6 +48,7 @@ bool KoyaSceneLayer::init()
     
     initHaikei();
     initNiwatori();
+    initAsobikataButton();
     
     return true;
 }
@@ -70,4 +71,22 @@ void KoyaSceneLayer::initNiwatori()
     // 反転
     auto flip = FlipX::create(true);
     niwatori->runAction(flip);
+}
+
+void KoyaSceneLayer::initAsobikataButton()
+{
+    auto button = Button::create();
+    button->setTouchEnabled(true);
+    button->loadTextureNormal("btn_asobikata.png");
+    button->setAnchorPoint(Vec2(0, 1.0));
+    button->setPosition(Vec2(4, mGamenSize.height - 4));
+    button->addTouchEventListener(CC_CALLBACK_1(KoyaSceneLayer::asobikataCallback, this));
+    this->addChild(button);
+}
+
+
+#pragma mark - callback
+
+void KoyaSceneLayer::asobikataCallback(Ref* sender)
+{
 }
