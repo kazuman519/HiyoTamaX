@@ -12,6 +12,8 @@
 USING_NS_CC;
 using namespace ui;
 
+const float MAX_JIKAN = 10.0f;
+
 enum {
     Z_HAIKEI,
     Z_NIWATORI,
@@ -19,11 +21,11 @@ enum {
     Z_TOUCH_ARROW
 };
 
-enum class GameState {
-    HAJIME,
-    RENDA,
-    OWARI,
-    KEKKA
+enum {
+    JOUTAI_HAJIME,
+    JOUTAI_RENDA,
+    JOUTAI_OWARI,
+    JOUTAI_KEKKA
 };
 
 #pragma mark - create
@@ -48,6 +50,8 @@ bool NoharaSceneLayer::init()
     }
     
     mGamenSize = Director::getInstance()->getVisibleSize();
+    mJoutai = JOUTAI_HAJIME;
+    mNokoriJikan = MAX_JIKAN;
     
     initHaikei();
     
@@ -80,5 +84,7 @@ void NoharaSceneLayer::initTimer()
 
 void NoharaSceneLayer::update(float frame)
 {
-    log("fa-------------------wwww");
+    if (mJoutai == JOUTAI_RENDA) {
+        mNokoriJikan -= frame;
+    }
 }

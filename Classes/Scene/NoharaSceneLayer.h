@@ -24,6 +24,8 @@ public:
     
 private:
     cocos2d::Size mGamenSize;
+    int mJoutai;
+    float mNokoriJikan;
     
     void initHaikei();
     void initNiwatori();
