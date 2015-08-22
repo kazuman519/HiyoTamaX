@@ -19,6 +19,12 @@ enum {
     Z_TOUCH_ARROW
 };
 
+enum class GameState {
+    HAJIME,
+    RENDA,
+    OWARI,
+    KEKKA
+};
 
 #pragma mark - create
 
