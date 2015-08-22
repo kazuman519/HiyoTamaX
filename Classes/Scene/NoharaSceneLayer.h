@@ -22,6 +22,12 @@ public:
     
 private:
     cocos2d::Size mGamenSize;
+    
+    void initHaikei();
+    void initNiwatori();
+    void initTouchArrow();
+    void initJikanBar();
+    void initTamagoNumLabel();
 };
 
 #endif /* defined(__HiyoTamaX__NoharaSceneLayer__) */
