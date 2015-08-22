@@ -50,6 +50,7 @@ bool KoyaSceneLayer::init()
     initNiwatori();
     initAsobikataButton();
     initAsobuButton();
+    initZukanButton();
     
     return true;
 }
@@ -97,6 +98,19 @@ void KoyaSceneLayer::initAsobuButton()
     this->addChild(button, Z_BUTTON);
 }
 
+void KoyaSceneLayer::initZukanButton()
+{
+    auto button = Button::create();
+    button->setTouchEnabled(true);
+    button->loadTextureNormal("btn_zukan.png");
+    button->setAnchorPoint(Vec2(1.0, 1.0));
+    button->setPosition(Vec2(mGamenSize.width - 4,
+                             mGamenSize.height - 180));
+    button->addTouchEventListener(CC_CALLBACK_1(KoyaSceneLayer::zukanCallback, this));
+    this->addChild(button, Z_BUTTON);
+}
+
+
 #pragma mark - callback
 
 void KoyaSceneLayer::asobikataCallback(Ref* sender)
@@ -105,6 +119,11 @@ void KoyaSceneLayer::asobikataCallback(Ref* sender)
 }
 
 void KoyaSceneLayer::asobuCallback(Ref* sender)
+{
+    
+}
+
+void KoyaSceneLayer::zukanCallback(Ref* sender)
 {
     
 }
