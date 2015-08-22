@@ -53,6 +53,7 @@ bool KoyaSceneLayer::init()
     initAsobuButton();
     initZukanButton();
     initModoruButton();
+    initDataBar();
     
     return true;
 }
@@ -95,7 +96,7 @@ void KoyaSceneLayer::initAsobuButton()
     button->loadTextureNormal("btn_asobu.png");
     button->setAnchorPoint(Vec2(1.0f, 1.0f));
     button->setPosition(Vec2(mGamenSize.width - 4,
-                             mGamenSize.height - 4));
+                             mGamenSize.height));
     button->addTouchEventListener(CC_CALLBACK_1(KoyaSceneLayer::asobuCallback, this));
     this->addChild(button, Z_BUTTON);
 }
@@ -107,7 +108,7 @@ void KoyaSceneLayer::initZukanButton()
     button->loadTextureNormal("btn_zukan.png");
     button->setAnchorPoint(Vec2(1.0f, 1.0f));
     button->setPosition(Vec2(mGamenSize.width - 4,
-                             mGamenSize.height - 180));
+                             mGamenSize.height - 170));
     button->addTouchEventListener(CC_CALLBACK_1(KoyaSceneLayer::zukanCallback, this));
     this->addChild(button, Z_BUTTON);
 }
@@ -119,9 +120,17 @@ void KoyaSceneLayer::initModoruButton()
     button->loadTextureNormal("btn_modoru_oka.png");
     button->setAnchorPoint(Vec2(1.0f, 1.0f));
     button->setPosition(Vec2(mGamenSize.width - 4,
-                             mGamenSize.height - 360));
+                             mGamenSize.height - 340));
     button->addTouchEventListener(CC_CALLBACK_1(KoyaSceneLayer::modoruCallback, this));
     this->addChild(button, Z_BUTTON);
+}
+
+void KoyaSceneLayer::initDataBar()
+{
+    auto dataBar = Sprite::create("img_data_bar.png");
+    dataBar->setAnchorPoint(Vec2(1.0f, 0));
+    dataBar->setPosition(Vec2(mGamenSize.width, 0));
+    this->addChild(dataBar);
 }
 
 

@@ -29,6 +29,7 @@ private:
     void initAsobuButton();
     void initZukanButton();
     void initModoruButton();
+    void initDataBar();
     
     void asobikataCallback(Ref* sender);
     void asobuCallback(Ref* sender);
