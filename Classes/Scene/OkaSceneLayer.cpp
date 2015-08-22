@@ -65,7 +65,7 @@ void OkaSceneLayer::initButton()
 {
     Button* startButton = Button::create();
     startButton->setTouchEnabled(true);
-    startButton->loadTextureNormal("btn_game_start_off-hd.png");
+    startButton->loadTextureNormal("btn_game_start.png");
     startButton->setPosition(Vec2(mGamenSize.width/2,
                                         mGamenSize.height/2 - 20));
     startButton->addTouchEventListener(CC_CALLBACK_1(OkaSceneLayer::gameStartCallback, this));
