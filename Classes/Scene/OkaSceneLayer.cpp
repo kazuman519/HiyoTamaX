@@ -76,7 +76,7 @@ void OkaSceneLayer::initButton()
 void OkaSceneLayer::initLogo()
 {
     auto logo = Sprite::create("logo_hiyotama.png");
-    logo->setAnchorPoint(Vec2(0.5, 1.0));
+    logo->setAnchorPoint(Vec2(0.5f, 1.0f));
     logo->setPosition(Vec2(mGamenSize.width/2,
                            mGamenSize.height - 50));
     this->addChild(logo);
@@ -86,8 +86,8 @@ void OkaSceneLayer::initLogo()
 
 void OkaSceneLayer::gameStartCallback(Ref* sender)
 {
-    Scene* scene = KoyaSceneLayer::createScene();
-    TransitionFade* transition = TransitionFade::create(0.5f, scene);
+    auto scene = KoyaSceneLayer::createScene();
+    auto transition = TransitionFade::create(0.5f, scene);
     
     Director::getInstance()->replaceScene(transition);
 }

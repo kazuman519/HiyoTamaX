@@ -82,7 +82,7 @@ void KoyaSceneLayer::initAsobikataButton()
     auto button = Button::create();
     button->setTouchEnabled(true);
     button->loadTextureNormal("btn_asobikata.png");
-    button->setAnchorPoint(Vec2(0, 1.0));
+    button->setAnchorPoint(Vec2(0, 1.0f));
     button->setPosition(Vec2(4, mGamenSize.height - 4));
     button->addTouchEventListener(CC_CALLBACK_1(KoyaSceneLayer::asobikataCallback, this));
     this->addChild(button, Z_BUTTON);
@@ -93,7 +93,7 @@ void KoyaSceneLayer::initAsobuButton()
     auto button = Button::create();
     button->setTouchEnabled(true);
     button->loadTextureNormal("btn_asobu.png");
-    button->setAnchorPoint(Vec2(1.0, 1.0));
+    button->setAnchorPoint(Vec2(1.0f, 1.0f));
     button->setPosition(Vec2(mGamenSize.width - 4,
                              mGamenSize.height - 4));
     button->addTouchEventListener(CC_CALLBACK_1(KoyaSceneLayer::asobuCallback, this));
@@ -105,7 +105,7 @@ void KoyaSceneLayer::initZukanButton()
     auto button = Button::create();
     button->setTouchEnabled(true);
     button->loadTextureNormal("btn_zukan.png");
-    button->setAnchorPoint(Vec2(1.0, 1.0));
+    button->setAnchorPoint(Vec2(1.0f, 1.0f));
     button->setPosition(Vec2(mGamenSize.width - 4,
                              mGamenSize.height - 180));
     button->addTouchEventListener(CC_CALLBACK_1(KoyaSceneLayer::zukanCallback, this));
@@ -117,7 +117,7 @@ void KoyaSceneLayer::initModoruButton()
     auto button = Button::create();
     button->setTouchEnabled(true);
     button->loadTextureNormal("btn_modoru_oka.png");
-    button->setAnchorPoint(Vec2(1.0, 1.0));
+    button->setAnchorPoint(Vec2(1.0f, 1.0f));
     button->setPosition(Vec2(mGamenSize.width - 4,
                              mGamenSize.height - 360));
     button->addTouchEventListener(CC_CALLBACK_1(KoyaSceneLayer::modoruCallback, this));
