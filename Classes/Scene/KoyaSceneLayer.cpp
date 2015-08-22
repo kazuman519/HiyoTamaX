@@ -49,6 +49,7 @@ bool KoyaSceneLayer::init()
     initHaikei();
     initNiwatori();
     initAsobikataButton();
+    initAsobuButton();
     
     return true;
 }
@@ -84,9 +85,26 @@ void KoyaSceneLayer::initAsobikataButton()
     this->addChild(button);
 }
 
+void KoyaSceneLayer::initAsobuButton()
+{
+    auto button = Button::create();
+    button->setTouchEnabled(true);
+    button->loadTextureNormal("btn_asobu.png");
+    button->setAnchorPoint(Vec2(1.0, 1.0));
+    button->setPosition(Vec2(mGamenSize.width - 4,
+                             mGamenSize.height - 4));
+    button->addTouchEventListener(CC_CALLBACK_1(KoyaSceneLayer::asobuCallback, this));
+    this->addChild(button);
+}
 
 #pragma mark - callback
 
 void KoyaSceneLayer::asobikataCallback(Ref* sender)
 {
+    
+}
+
+void KoyaSceneLayer::asobuCallback(Ref* sender)
+{
+    
 }
