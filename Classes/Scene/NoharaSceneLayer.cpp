@@ -46,3 +46,11 @@ bool NoharaSceneLayer::init()
     
     return true;
 }
+
+void NoharaSceneLayer::initHaikei()
+{
+    auto haikei = Sprite::create("bg_nohara.png");
+    haikei->setPosition(Vec2(mGamenSize.width/2,
+                             mGamenSize.height/2));
+    this->addChild(haikei, Z_HAIKEI);
+}
