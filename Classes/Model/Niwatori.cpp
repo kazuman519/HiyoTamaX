@@ -7,27 +7,21 @@
 //
 
 #include "Niwatori.h"
+#include "NoharaSceneLayer.h"
+
 
 
 #pragma mark - init
 
 bool Niwatori::init()
 {
-    if (!Node::init()) {
+    if (!Sprite::initWithFile("niwatori.png")) {
         return false;
     }
-    
-    initImage();
+
     initEventListener();
     
     return true;
-}
-
-void Niwatori::initImage()
-{
-    auto image = Sprite::create("niwatori.png");
-    image->setAnchorPoint(Vec2(0.5f, 0));
-    this->addChild(image);
 }
 
 void Niwatori::initEventListener()

@@ -14,7 +14,7 @@
 USING_NS_CC;
 
 
-class Niwatori : public Node
+class Niwatori : public Sprite
 {
 public:
     virtual bool init();
@@ -27,7 +27,6 @@ public:
 private:
     float _tempScale;
     
-    void initImage();
     void initEventListener();
     
     void actionTsujou();
