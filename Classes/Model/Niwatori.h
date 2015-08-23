@@ -29,6 +29,7 @@ public:
     void actionOdoroku();
     void actionTsukareta();
     void actionYondekuru();
+    void actionFurimuku();
     
     CREATE_FUNC(Niwatori);
     

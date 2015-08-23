@@ -69,6 +69,9 @@ void Niwatori::onTouchEnded(Touch *pTouch, Event *pEvent)
 
 #pragma mark - action methods
 
+/**
+ * 卵を産むアクション
+ */
 void Niwatori::actionSanran()
 {
     // 卵生成
@@ -90,4 +93,14 @@ void Niwatori::actionSanran()
     auto spawn = Spawn::create(sequence, rotate, NULL);
     
     tamago->runAction(spawn);
+}
+
+/**
+ * 振り向くアクション
+ */
+void Niwatori::actionFurimuku()
+{
+    auto flipX = ScaleTo::create(0.2f, -this->getScaleX(), this->getScaleY());
+    
+    this->runAction(flipX);
 }
