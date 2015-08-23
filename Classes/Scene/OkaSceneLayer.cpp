@@ -7,11 +7,7 @@
 //
 
 #include "OkaSceneLayer.h"
-#include <ui/CocosGUI.h>
 #include "KoyaSceneLayer.h"
-
-USING_NS_CC;
-using namespace ui;
 
 
 #pragma mark - enum
@@ -44,7 +40,7 @@ bool OkaSceneLayer::init()
         return false;
     }
     
-    mGamenSize = Director::getInstance()->getVisibleSize();
+    _gamenSize = Director::getInstance()->getVisibleSize();
     
     initHaikei();
     initButton();
@@ -56,8 +52,8 @@ bool OkaSceneLayer::init()
 void OkaSceneLayer::initHaikei()
 {
     auto haikei = Sprite::create("bg_oka.png");
-    haikei->setPosition(Vec2(mGamenSize.width/2,
-                             mGamenSize.height/2));
+    haikei->setPosition(Vec2(_gamenSize.width/2,
+                             _gamenSize.height/2));
     this->addChild(haikei);
 }
 
@@ -66,8 +62,8 @@ void OkaSceneLayer::initButton()
     auto startButton = Button::create();
     startButton->setTouchEnabled(true);
     startButton->loadTextureNormal("btn_game_start.png");
-    startButton->setPosition(Vec2(mGamenSize.width/2,
-                                        mGamenSize.height/2 - 20));
+    startButton->setPosition(Vec2(_gamenSize.width/2,
+                                  _gamenSize.height/2 - 20));
     startButton->addTouchEventListener(CC_CALLBACK_1(OkaSceneLayer::gameStartCallback, this));
     this->addChild(startButton);
 }
@@ -76,8 +72,8 @@ void OkaSceneLayer::initLogo()
 {
     auto logo = Sprite::create("logo_hiyotama.png");
     logo->setAnchorPoint(Vec2(0.5f, 1.0f));
-    logo->setPosition(Vec2(mGamenSize.width/2,
-                           mGamenSize.height - 50));
+    logo->setPosition(Vec2(_gamenSize.width/2,
+                           _gamenSize.height - 50));
     this->addChild(logo);
 }
 

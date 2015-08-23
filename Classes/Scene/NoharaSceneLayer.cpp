@@ -7,11 +7,7 @@
 //
 
 #include "NoharaSceneLayer.h"
-#include <ui/CocosGUI.h>
 #include "Niwatori.h"
-
-USING_NS_CC;
-using namespace ui;
 
 const float MAX_JIKAN = 10.0f;
 
@@ -51,9 +47,9 @@ bool NoharaSceneLayer::init()
         return false;
     }
     
-    mGamenSize = Director::getInstance()->getVisibleSize();
-    mJoutai = JOUTAI_HAJIME;
-    mNokoriJikan = MAX_JIKAN;
+    _gamenSize = Director::getInstance()->getVisibleSize();
+    _joutai = JOUTAI_HAJIME;
+    _nokoriJikan = MAX_JIKAN;
     
     initHaikei();
     
@@ -62,7 +58,7 @@ bool NoharaSceneLayer::init()
     this->scheduleUpdate();
     
     auto niwatori = Niwatori::create();
-    niwatori->setPosition(Vec2(mGamenSize.width/2, mGamenSize.height/2));
+    niwatori->setPosition(Vec2(_gamenSize.width/2, _gamenSize.height/2));
     niwatori->setScale(0.2);
     this->addChild(niwatori);
     
@@ -72,25 +68,29 @@ bool NoharaSceneLayer::init()
 void NoharaSceneLayer::initHaikei()
 {
     auto haikei = Sprite::create("bg_nohara.png");
-    haikei->setPosition(Vec2(mGamenSize.width/2,
-                             mGamenSize.height/2));
+    haikei->setPosition(Vec2(_gamenSize
+                             .width/2,
+                             _gamenSize.height/2));
     this->addChild(haikei, Z_HAIKEI);
 }
 
 
 void NoharaSceneLayer::initTimer()
 {
+    
     auto timerSprite = Sprite::create("img_timer.png");
     timerSprite->setAnchorPoint(Vec2(0, 1.0f));
-    timerSprite->setPosition(Vec2(0, mGamenSize.height));
+    timerSprite->setPosition(Vec2(0, _gamenSize.height));
     this->addChild(timerSprite, Z_UI);
     
     auto timerText = StringUtils::format("%.0f", MAX_JIKAN);
-    mTimerLabel = Label::createWithSystemFont(timerText, "Marker Felt", 34);
-    mTimerLabel->setAnchorPoint(Vec2(1.0f, 0.5f));
-    mTimerLabel->setPosition(Vec2(timerSprite->getPosition().x + timerSprite->getContentSize().width * 0.7f,
+    _timerLabel
+    = Label::createWithSystemFont(timerText, "Marker Felt", 34);
+    _timerLabel->setAnchorPoint(Vec2(1.0f, 0.5f));
+    _timerLabel
+    ->setPosition(Vec2(timerSprite->getPosition().x + timerSprite->getContentSize().width * 0.7f,
                                   timerSprite->getPosition().y - timerSprite->getContentSize().height * 0.5f));
-    this->addChild(mTimerLabel, Z_TIMER_LABEL);
+    this->addChild(_timerLabel, Z_TIMER_LABEL);
 }
 
 
@@ -98,15 +98,15 @@ void NoharaSceneLayer::initTimer()
 
 void NoharaSceneLayer::update(float frame)
 {
-    if (mJoutai == JOUTAI_RENDA) {
-        mNokoriJikan -= frame;
+    if (_joutai == JOUTAI_RENDA) {
+        _nokoriJikan -= frame;
         
-        if (mNokoriJikan <= 0) {
-            mNokoriJikan = 10;
-            mJoutai = JOUTAI_OWARI;
+        if (_nokoriJikan <= 0) {
+            _nokoriJikan = 10;
+            _joutai = JOUTAI_OWARI;
         }
         
-        auto timerText = StringUtils::format("%.2f", mNokoriJikan);
-        mTimerLabel->setString(timerText);
+        auto timerText = StringUtils::format("%.2f", _nokoriJikan);
+        _timerLabel->setString(timerText);
     }
 }

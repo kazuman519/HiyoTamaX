@@ -7,12 +7,8 @@
 //
 
 #include "KoyaSceneLayer.h"
-#include <ui/CocosGUI.h>
 #include "OkaSceneLayer.h"
 #include "NoharaSceneLayer.h"
-
-USING_NS_CC;
-using namespace ui;
 
 
 #pragma mark - enum
@@ -45,7 +41,7 @@ bool KoyaSceneLayer::init()
         return false;
     }
     
-    mGamenSize = Director::getInstance()->getVisibleSize();
+    _gamenSize = Director::getInstance()->getVisibleSize();
     
     initHaikei();
     initNiwatori();
@@ -61,8 +57,8 @@ bool KoyaSceneLayer::init()
 void KoyaSceneLayer::initHaikei()
 {
     auto haikei = Sprite::create("bg_koya.png");
-    haikei->setPosition(Vec2(mGamenSize.width/2,
-                             mGamenSize.height/2));
+    haikei->setPosition(Vec2(_gamenSize.width/2,
+                             _gamenSize.height/2));
     this->addChild(haikei, Z_HAIKEI);
 }
 
@@ -84,7 +80,7 @@ void KoyaSceneLayer::initAsobikataButton()
     button->setTouchEnabled(true);
     button->loadTextureNormal("btn_asobikata.png");
     button->setAnchorPoint(Vec2(0, 1.0f));
-    button->setPosition(Vec2(4, mGamenSize.height - 4));
+    button->setPosition(Vec2(4, _gamenSize.height - 4));
     button->addTouchEventListener(CC_CALLBACK_1(KoyaSceneLayer::asobikataCallback, this));
     this->addChild(button, Z_BUTTON);
 }
@@ -95,8 +91,8 @@ void KoyaSceneLayer::initAsobuButton()
     button->setTouchEnabled(true);
     button->loadTextureNormal("btn_asobu.png");
     button->setAnchorPoint(Vec2(1.0f, 1.0f));
-    button->setPosition(Vec2(mGamenSize.width - 4,
-                             mGamenSize.height));
+    button->setPosition(Vec2(_gamenSize.width - 4,
+                             _gamenSize.height));
     button->addTouchEventListener(CC_CALLBACK_1(KoyaSceneLayer::asobuCallback, this));
     this->addChild(button, Z_BUTTON);
 }
@@ -107,8 +103,8 @@ void KoyaSceneLayer::initZukanButton()
     button->setTouchEnabled(true);
     button->loadTextureNormal("btn_zukan.png");
     button->setAnchorPoint(Vec2(1.0f, 1.0f));
-    button->setPosition(Vec2(mGamenSize.width - 4,
-                             mGamenSize.height - 170));
+    button->setPosition(Vec2(_gamenSize.width - 4,
+                             _gamenSize.height - 170));
     button->addTouchEventListener(CC_CALLBACK_1(KoyaSceneLayer::zukanCallback, this));
     this->addChild(button, Z_BUTTON);
 }
@@ -119,8 +115,8 @@ void KoyaSceneLayer::initModoruButton()
     button->setTouchEnabled(true);
     button->loadTextureNormal("btn_modoru_oka.png");
     button->setAnchorPoint(Vec2(1.0f, 1.0f));
-    button->setPosition(Vec2(mGamenSize.width - 4,
-                             mGamenSize.height - 340));
+    button->setPosition(Vec2(_gamenSize.width - 4,
+                             _gamenSize.height - 340));
     button->addTouchEventListener(CC_CALLBACK_1(KoyaSceneLayer::modoruCallback, this));
     this->addChild(button, Z_BUTTON);
 }
@@ -129,7 +125,7 @@ void KoyaSceneLayer::initDataBar()
 {
     auto dataBar = Sprite::create("img_data_bar.png");
     dataBar->setAnchorPoint(Vec2(1.0f, 0));
-    dataBar->setPosition(Vec2(mGamenSize.width, 0));
+    dataBar->setPosition(Vec2(_gamenSize.width, 0));
     this->addChild(dataBar);
 }
 

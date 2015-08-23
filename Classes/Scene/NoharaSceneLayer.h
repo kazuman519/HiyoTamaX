@@ -10,11 +10,15 @@
 #define __HiyoTamaX__NoharaSceneLayer__
 
 #include "cocos2d.h"
+#include <ui/CocosGUI.h>
 
-class NoharaSceneLayer : public cocos2d::Layer
+USING_NS_CC;
+using namespace ui;
+
+class NoharaSceneLayer : public Layer
 {
 public:
-    static cocos2d::Scene* createScene();
+    static Scene* createScene();
     
     virtual bool init();
     
@@ -23,11 +27,11 @@ public:
     CREATE_FUNC(NoharaSceneLayer);
     
 private:
-    cocos2d::Size mGamenSize;
-    int mJoutai;
-    float mNokoriJikan;
+    Size _gamenSize;
+    int _joutai;
+    float _nokoriJikan;
     
-    cocos2d::Label* mTimerLabel;
+    Label* _timerLabel;
     
     void initHaikei();
     void initNiwatori();

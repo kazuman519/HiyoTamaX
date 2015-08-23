@@ -10,18 +10,22 @@
 #define __HiyoTamaX__HTMOkaScene__
 
 #include "cocos2d.h"
+#include <ui/CocosGUI.h>
 
-class OkaSceneLayer : public cocos2d::Layer
+USING_NS_CC;
+using namespace ui;
+
+class OkaSceneLayer : public Layer
 {
 public:
-    static cocos2d::Scene* createScene();
+    static Scene* createScene();
     
     virtual bool init();
     
     CREATE_FUNC(OkaSceneLayer);
     
 private:
-    cocos2d::Size mGamenSize;
+    Size _gamenSize;
     
     void initHaikei();
     void initButton();
