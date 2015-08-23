@@ -16,7 +16,8 @@ enum {
     Z_NIWATORI,
     Z_UI,
     Z_TIMER_LABEL,
-    Z_TOUCH_ARROW
+    Z_TOUCH_ARROW,
+    Z_SIGN
 };
 
 enum {
@@ -88,7 +89,7 @@ void NoharaSceneLayer::initTimer()
     timerSprite->setPosition(Vec2(0, _gamenSize.height));
     this->addChild(timerSprite, Z_UI);
     
-    auto timerText = StringUtils::format("%.0f", MAX_JIKAN);
+    auto timerText = StringUtils::format("%0.1f", MAX_JIKAN);
     _timerLabel
     = Label::createWithSystemFont(timerText, "Marker Felt", 34);
     _timerLabel->setAnchorPoint(Vec2(1.0f, 0.5f));
@@ -96,6 +97,14 @@ void NoharaSceneLayer::initTimer()
     ->setPosition(Vec2(timerSprite->getPosition().x + timerSprite->getContentSize().width * 0.7f,
                                   timerSprite->getPosition().y - timerSprite->getContentSize().height * 0.5f));
     this->addChild(_timerLabel, Z_TIMER_LABEL);
+}
+
+
+#pragma mark - scene methods
+
+void NoharaSceneLayer::onEnterTransitionDidFinish()
+{
+    startGame();
 }
 
 
@@ -107,11 +116,39 @@ void NoharaSceneLayer::update(float frame)
         _nokoriJikan -= frame;
         
         if (_nokoriJikan <= 0) {
-            _nokoriJikan = 10;
+            _nokoriJikan = 0;
             _joutai = JOUTAI_OWARI;
         }
         
-        auto timerText = StringUtils::format("%.2f", _nokoriJikan);
+        auto timerText = StringUtils::format("%.1f", _nokoriJikan);
         _timerLabel->setString(timerText);
     }
+}
+
+
+#pragma mark - game methods
+
+void NoharaSceneLayer::startGame()
+{
+    auto sprite = Sprite::create("img_start_sign.png");
+    sprite->setPosition(Vec2(_gamenSize.width/2,
+                             _gamenSize.height/2));
+    sprite->setScale(0);
+    this->addChild(sprite, Z_SIGN);
+    
+    auto scale = ScaleTo::create(0.2f, 1.0f);
+    auto rotate = RotateTo::create(0.2f, 720);
+    auto spawn = Spawn::create(scale, rotate, NULL);
+    
+    auto callFunc = CallFunc::create([this]() {
+        _joutai = JOUTAI_RENDA;
+    });
+    
+    auto delay = DelayTime::create(0.5f);
+    
+    auto fade = FadeTo::create(0.5f, 0);
+    
+    auto sequence = Sequence::create(spawn, callFunc, delay, fade, NULL);
+    
+    sprite->runAction(sequence);
 }

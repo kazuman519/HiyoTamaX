@@ -21,7 +21,7 @@ public:
     static Scene* createScene();
     
     virtual bool init();
-    
+    void onEnterTransitionDidFinish();
     void update(float frame);
     
     CREATE_FUNC(NoharaSceneLayer);
@@ -38,6 +38,11 @@ private:
     void initTouchArrow();
     void initTimer();
     void initTamagoNumLabel();
+    
+    void startGame();
+    void finishGame();
+    void actionGameStart();
+    void actionGameFinish();
 };
 
 #endif /* defined(__HiyoTamaX__NoharaSceneLayer__) */
