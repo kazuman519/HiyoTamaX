@@ -22,6 +22,8 @@ public:
     bool onTouchBegan(Touch* pTouch, Event* pEvent);
     void onTouchEnded(Touch* pTouch, Event* pEvent);
     
+    void setEnabled(bool isEnabled);
+    
     void actionTsujou();
     void actionSanran();
     void actionOdoroku();
@@ -31,6 +33,7 @@ public:
     CREATE_FUNC(Niwatori);
     
 private:
+    bool _isEnabled;
     float _tempScale;
     
     void initEventListener();

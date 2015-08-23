@@ -17,6 +17,9 @@ bool Niwatori::init()
     if (!Sprite::initWithFile("niwatori.png")) {
         return false;
     }
+    
+    _isEnabled = false;
+    _tempScale = this->getScale();
 
     initEventListener();
     
@@ -33,10 +36,22 @@ void Niwatori::initEventListener()
 }
 
 
+#pragma mark - setter
+
+void Niwatori::setEnabled(bool isEnabled)
+{
+    _isEnabled = isEnabled;
+}
+
+
 #pragma mark - touch methods
 
 bool Niwatori::onTouchBegan(Touch *pTouch, Event *pEvent)
 {
+    if (!_isEnabled) {
+        return false;
+    }
+    
     // TODO:大きくするのアニメーションで大きくしたい
     _tempScale = this->getScale();
     this->setScale(this->getScale() * 1.05f);
