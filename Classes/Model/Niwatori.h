@@ -10,6 +10,7 @@
 #define __HiyoTamaX__Niwatori__
 
 #include "cocos2d.h"
+#include "Tamago.h"
 
 USING_NS_CC;
 
@@ -23,6 +24,7 @@ public:
     void onTouchEnded(Touch* pTouch, Event* pEvent);
     
     void setEnabled(bool isEnabled);
+    std::list<Tamago*> getTamagoList();
     
     void actionTsujou();
     void actionSanran();
@@ -36,6 +38,7 @@ public:
 private:
     bool _isEnabled;
     float _tempScale;
+    std::list<Tamago*> _tamagoList;
     
     void initEventListener();
 };

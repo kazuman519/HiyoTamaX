@@ -7,7 +7,6 @@
 //
 
 #include "Niwatori.h"
-#include "Tamago.h"
 
 
 #pragma mark - init
@@ -41,6 +40,14 @@ void Niwatori::initEventListener()
 void Niwatori::setEnabled(bool isEnabled)
 {
     _isEnabled = isEnabled;
+}
+
+
+#pragma mark - getter
+
+std::list<Tamago*> Niwatori::getTamagoList()
+{
+    return _tamagoList;
 }
 
 
@@ -80,6 +87,9 @@ void Niwatori::actionSanran()
                              this->getPosition().y + this->getBoundingBox().size.height * 0.4));
     tamago->setRotation(rand() % 360);
     this->getParent()->addChild(tamago, this->getLocalZOrder() - 1);
+    
+    // リスト追加
+    _tamagoList.push_back(tamago);
     
     // アクション
     auto jump = JumpBy::create(0.5f,
