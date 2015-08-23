@@ -118,6 +118,8 @@ void NoharaSceneLayer::update(float frame)
         if (_nokoriJikan <= 0) {
             _nokoriJikan = 0;
             _joutai = JOUTAI_OWARI;
+            
+            finishGame();
         }
         
         auto timerText = StringUtils::format("%.1f", _nokoriJikan);
@@ -136,13 +138,32 @@ void NoharaSceneLayer::startGame()
     sprite->setScale(0);
     this->addChild(sprite, Z_SIGN);
     
+    actionSign(sprite, CallFunc::create([this]() {
+        _joutai = JOUTAI_RENDA;
+    }));
+}
+
+void NoharaSceneLayer::finishGame()
+{
+    auto sprite = Sprite::create("img_finish_sign.png");
+    sprite->setPosition(Vec2(_gamenSize.width/2,
+                             _gamenSize.height/2));
+    sprite->setScale(0);
+    this->addChild(sprite, Z_SIGN);
+    
+    actionSign(sprite, CallFunc::create([this]() {
+        _joutai = JOUTAI_KEKKA;
+    }));
+}
+
+
+#pragma mark - action methods
+
+void NoharaSceneLayer::actionSign(Node *node, CallFunc *callFunc)
+{
     auto scale = ScaleTo::create(0.2f, 1.0f);
     auto rotate = RotateTo::create(0.2f, 720);
     auto spawn = Spawn::create(scale, rotate, NULL);
-    
-    auto callFunc = CallFunc::create([this]() {
-        _joutai = JOUTAI_RENDA;
-    });
     
     auto delay = DelayTime::create(0.5f);
     
@@ -150,5 +171,5 @@ void NoharaSceneLayer::startGame()
     
     auto sequence = Sequence::create(spawn, callFunc, delay, fade, NULL);
     
-    sprite->runAction(sequence);
+    node->runAction(sequence);
 }

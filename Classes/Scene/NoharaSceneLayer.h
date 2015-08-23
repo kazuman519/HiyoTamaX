@@ -41,8 +41,7 @@ private:
     
     void startGame();
     void finishGame();
-    void actionGameStart();
-    void actionGameFinish();
+    void actionSign(Node* node, CallFunc* callFunc);
 };
 
 #endif /* defined(__HiyoTamaX__NoharaSceneLayer__) */
