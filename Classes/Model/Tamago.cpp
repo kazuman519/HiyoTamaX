@@ -19,3 +19,4 @@ bool Tamago::init()
     
     return true;
 }
+
