@@ -11,12 +11,12 @@
 
 #pragma mark - init
 
-bool Tamago::init()
+bool Tamago::initWithNumber(int number)
 {
-    if (!Node::init()) {
+    std::string fileName = StringUtils::format("tamago_%d.png", number);
+    if (!Sprite::initWithFile(fileName)) {
         return false;
     }
     
     return true;
 }
-

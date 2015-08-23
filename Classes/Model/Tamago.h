@@ -13,12 +13,22 @@
 
 USING_NS_CC;
 
-class Tamago : public Node
+class Tamago : public Sprite
 {
 public:
-    virtual bool init();
+    static Tamago* createWithNumber(int number)
+    {
+        Tamago *tamago = new Tamago();
+        if (tamago && tamago->initWithNumber(number))
+        {
+            tamago->autorelease();
+            return tamago;
+        }
+        CC_SAFE_DELETE(tamago);
+        return nullptr;
+    }
     
-    CREATE_FUNC(Tamago);
+    virtual bool initWithNumber(int number);
     
 private:
     void initImage();
