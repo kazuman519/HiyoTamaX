@@ -58,91 +58,6 @@
 		521A8EAA19F11F5000D177D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
 		52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B47A461A53D09B004E4C60 /* Security.framework */; };
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
-		A439510A1B87590000B82821 /* hiyo0.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950181B87590000B82821 /* hiyo0.png */; };
-		A439510B1B87590000B82821 /* hiyo1-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950191B87590000B82821 /* hiyo1-hd.png */; };
-		A439510C1B87590000B82821 /* hiyo1.png in Resources */ = {isa = PBXBuildFile; fileRef = A439501A1B87590000B82821 /* hiyo1.png */; };
-		A439510D1B87590000B82821 /* hiyo10-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A439501B1B87590000B82821 /* hiyo10-hd.png */; };
-		A439510E1B87590000B82821 /* hiyo10.png in Resources */ = {isa = PBXBuildFile; fileRef = A439501C1B87590000B82821 /* hiyo10.png */; };
-		A439510F1B87590000B82821 /* hiyo11-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A439501D1B87590000B82821 /* hiyo11-hd.png */; };
-		A43951101B87590000B82821 /* hiyo11.png in Resources */ = {isa = PBXBuildFile; fileRef = A439501E1B87590000B82821 /* hiyo11.png */; };
-		A43951111B87590000B82821 /* hiyo12-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A439501F1B87590000B82821 /* hiyo12-hd.png */; };
-		A43951121B87590000B82821 /* hiyo12.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950201B87590000B82821 /* hiyo12.png */; };
-		A43951131B87590000B82821 /* hiyo13-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950211B87590000B82821 /* hiyo13-hd.png */; };
-		A43951141B87590000B82821 /* hiyo13.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950221B87590000B82821 /* hiyo13.png */; };
-		A43951151B87590000B82821 /* hiyo14-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950231B87590000B82821 /* hiyo14-hd.png */; };
-		A43951161B87590000B82821 /* hiyo14.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950241B87590000B82821 /* hiyo14.png */; };
-		A43951171B87590000B82821 /* hiyo15-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950251B87590000B82821 /* hiyo15-hd.png */; };
-		A43951181B87590000B82821 /* hiyo15.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950261B87590000B82821 /* hiyo15.png */; };
-		A43951191B87590000B82821 /* hiyo16-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950271B87590000B82821 /* hiyo16-hd.png */; };
-		A439511A1B87590000B82821 /* hiyo16.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950281B87590000B82821 /* hiyo16.png */; };
-		A439511B1B87590000B82821 /* hiyo17-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950291B87590000B82821 /* hiyo17-hd.png */; };
-		A439511C1B87590000B82821 /* hiyo17.png in Resources */ = {isa = PBXBuildFile; fileRef = A439502A1B87590000B82821 /* hiyo17.png */; };
-		A439511D1B87590000B82821 /* hiyo18-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A439502B1B87590000B82821 /* hiyo18-hd.png */; };
-		A439511E1B87590000B82821 /* hiyo18.png in Resources */ = {isa = PBXBuildFile; fileRef = A439502C1B87590000B82821 /* hiyo18.png */; };
-		A439511F1B87590000B82821 /* hiyo19-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A439502D1B87590000B82821 /* hiyo19-hd.png */; };
-		A43951201B87590000B82821 /* hiyo19.png in Resources */ = {isa = PBXBuildFile; fileRef = A439502E1B87590000B82821 /* hiyo19.png */; };
-		A43951211B87590000B82821 /* hiyo2-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A439502F1B87590000B82821 /* hiyo2-hd.png */; };
-		A43951221B87590000B82821 /* hiyo2.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950301B87590000B82821 /* hiyo2.png */; };
-		A43951231B87590000B82821 /* hiyo20-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950311B87590000B82821 /* hiyo20-hd.png */; };
-		A43951241B87590000B82821 /* hiyo20.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950321B87590000B82821 /* hiyo20.png */; };
-		A43951251B87590000B82821 /* hiyo21-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950331B87590000B82821 /* hiyo21-hd.png */; };
-		A43951261B87590000B82821 /* hiyo21.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950341B87590000B82821 /* hiyo21.png */; };
-		A43951271B87590000B82821 /* hiyo22-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950351B87590000B82821 /* hiyo22-hd.png */; };
-		A43951281B87590000B82821 /* hiyo22.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950361B87590000B82821 /* hiyo22.png */; };
-		A43951291B87590000B82821 /* hiyo23-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950371B87590000B82821 /* hiyo23-hd.png */; };
-		A439512A1B87590000B82821 /* hiyo23.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950381B87590000B82821 /* hiyo23.png */; };
-		A439512B1B87590000B82821 /* hiyo24-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950391B87590000B82821 /* hiyo24-hd.png */; };
-		A439512C1B87590000B82821 /* hiyo24.png in Resources */ = {isa = PBXBuildFile; fileRef = A439503A1B87590000B82821 /* hiyo24.png */; };
-		A439512D1B87590000B82821 /* hiyo25-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A439503B1B87590000B82821 /* hiyo25-hd.png */; };
-		A439512E1B87590000B82821 /* hiyo25.png in Resources */ = {isa = PBXBuildFile; fileRef = A439503C1B87590000B82821 /* hiyo25.png */; };
-		A439512F1B87590000B82821 /* hiyo26-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A439503D1B87590000B82821 /* hiyo26-hd.png */; };
-		A43951301B87590000B82821 /* hiyo26.png in Resources */ = {isa = PBXBuildFile; fileRef = A439503E1B87590000B82821 /* hiyo26.png */; };
-		A43951311B87590000B82821 /* hiyo27-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A439503F1B87590000B82821 /* hiyo27-hd.png */; };
-		A43951321B87590000B82821 /* hiyo27.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950401B87590000B82821 /* hiyo27.png */; };
-		A43951331B87590000B82821 /* hiyo28-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950411B87590000B82821 /* hiyo28-hd.png */; };
-		A43951341B87590000B82821 /* hiyo28.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950421B87590000B82821 /* hiyo28.png */; };
-		A43951351B87590000B82821 /* hiyo29-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950431B87590000B82821 /* hiyo29-hd.png */; };
-		A43951361B87590000B82821 /* hiyo29.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950441B87590000B82821 /* hiyo29.png */; };
-		A43951371B87590000B82821 /* hiyo3-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950451B87590000B82821 /* hiyo3-hd.png */; };
-		A43951381B87590000B82821 /* hiyo3.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950461B87590000B82821 /* hiyo3.png */; };
-		A43951391B87590000B82821 /* hiyo30-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950471B87590000B82821 /* hiyo30-hd.png */; };
-		A439513A1B87590000B82821 /* hiyo30.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950481B87590000B82821 /* hiyo30.png */; };
-		A439513B1B87590000B82821 /* hiyo31-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950491B87590000B82821 /* hiyo31-hd.png */; };
-		A439513C1B87590000B82821 /* hiyo31.png in Resources */ = {isa = PBXBuildFile; fileRef = A439504A1B87590000B82821 /* hiyo31.png */; };
-		A439513D1B87590000B82821 /* hiyo32-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A439504B1B87590000B82821 /* hiyo32-hd.png */; };
-		A439513E1B87590000B82821 /* hiyo32.png in Resources */ = {isa = PBXBuildFile; fileRef = A439504C1B87590000B82821 /* hiyo32.png */; };
-		A439513F1B87590000B82821 /* hiyo33-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A439504D1B87590000B82821 /* hiyo33-hd.png */; };
-		A43951401B87590000B82821 /* hiyo33.png in Resources */ = {isa = PBXBuildFile; fileRef = A439504E1B87590000B82821 /* hiyo33.png */; };
-		A43951411B87590000B82821 /* hiyo34-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A439504F1B87590000B82821 /* hiyo34-hd.png */; };
-		A43951421B87590000B82821 /* hiyo34.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950501B87590000B82821 /* hiyo34.png */; };
-		A43951431B87590000B82821 /* hiyo35-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950511B87590000B82821 /* hiyo35-hd.png */; };
-		A43951441B87590000B82821 /* hiyo35.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950521B87590000B82821 /* hiyo35.png */; };
-		A43951451B87590000B82821 /* hiyo36-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950531B87590000B82821 /* hiyo36-hd.png */; };
-		A43951461B87590000B82821 /* hiyo36.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950541B87590000B82821 /* hiyo36.png */; };
-		A43951471B87590000B82821 /* hiyo37-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950551B87590000B82821 /* hiyo37-hd.png */; };
-		A43951481B87590000B82821 /* hiyo37.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950561B87590000B82821 /* hiyo37.png */; };
-		A43951491B87590000B82821 /* hiyo38-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950571B87590000B82821 /* hiyo38-hd.png */; };
-		A439514A1B87590000B82821 /* hiyo38.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950581B87590000B82821 /* hiyo38.png */; };
-		A439514B1B87590000B82821 /* hiyo39-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950591B87590000B82821 /* hiyo39-hd.png */; };
-		A439514C1B87590000B82821 /* hiyo39.png in Resources */ = {isa = PBXBuildFile; fileRef = A439505A1B87590000B82821 /* hiyo39.png */; };
-		A439514D1B87590000B82821 /* hiyo4-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A439505B1B87590000B82821 /* hiyo4-hd.png */; };
-		A439514E1B87590000B82821 /* hiyo4.png in Resources */ = {isa = PBXBuildFile; fileRef = A439505C1B87590000B82821 /* hiyo4.png */; };
-		A439514F1B87590000B82821 /* hiyo40-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A439505D1B87590000B82821 /* hiyo40-hd.png */; };
-		A43951501B87590000B82821 /* hiyo40.png in Resources */ = {isa = PBXBuildFile; fileRef = A439505E1B87590000B82821 /* hiyo40.png */; };
-		A43951511B87590000B82821 /* hiyo41-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A439505F1B87590000B82821 /* hiyo41-hd.png */; };
-		A43951521B87590000B82821 /* hiyo41.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950601B87590000B82821 /* hiyo41.png */; };
-		A43951531B87590000B82821 /* hiyo42-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950611B87590000B82821 /* hiyo42-hd.png */; };
-		A43951541B87590000B82821 /* hiyo42.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950621B87590000B82821 /* hiyo42.png */; };
-		A43951551B87590000B82821 /* hiyo5-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950631B87590000B82821 /* hiyo5-hd.png */; };
-		A43951561B87590000B82821 /* hiyo5.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950641B87590000B82821 /* hiyo5.png */; };
-		A43951571B87590000B82821 /* hiyo6-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950651B87590000B82821 /* hiyo6-hd.png */; };
-		A43951581B87590000B82821 /* hiyo6.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950661B87590000B82821 /* hiyo6.png */; };
-		A43951591B87590000B82821 /* hiyo7-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950671B87590000B82821 /* hiyo7-hd.png */; };
-		A439515A1B87590000B82821 /* hiyo7.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950681B87590000B82821 /* hiyo7.png */; };
-		A439515B1B87590000B82821 /* hiyo8-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A43950691B87590000B82821 /* hiyo8-hd.png */; };
-		A439515C1B87590000B82821 /* hiyo8.png in Resources */ = {isa = PBXBuildFile; fileRef = A439506A1B87590000B82821 /* hiyo8.png */; };
-		A439515D1B87590000B82821 /* hiyo9-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A439506B1B87590000B82821 /* hiyo9-hd.png */; };
-		A439515E1B87590000B82821 /* hiyo9.png in Resources */ = {isa = PBXBuildFile; fileRef = A439506C1B87590000B82821 /* hiyo9.png */; };
 		A43951601B87590000B82821 /* niwatori.png in Resources */ = {isa = PBXBuildFile; fileRef = A439506F1B87590000B82821 /* niwatori.png */; };
 		A43951F81B875A0600B82821 /* OkaSceneLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A43951F61B875A0600B82821 /* OkaSceneLayer.cpp */; };
 		A43952161B88CC1600B82821 /* KoyaSceneLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A43952141B88CC1600B82821 /* KoyaSceneLayer.cpp */; };
@@ -237,6 +152,49 @@
 		A4A9127A1B89CA8E0072BDE4 /* tamago_8.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A9124E1B89CA8E0072BDE4 /* tamago_8.png */; };
 		A4A9127B1B89CA8E0072BDE4 /* tamago_9.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A9124F1B89CA8E0072BDE4 /* tamago_9.png */; };
 		A4A9127C1B89CA8E0072BDE4 /* tamago_ferver.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912501B89CA8E0072BDE4 /* tamago_ferver.png */; };
+		A4A913021B89CB940072BDE4 /* hiyo_0.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912D71B89CB940072BDE4 /* hiyo_0.png */; };
+		A4A913031B89CB940072BDE4 /* hiyo_1.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912D81B89CB940072BDE4 /* hiyo_1.png */; };
+		A4A913041B89CB940072BDE4 /* hiyo_10.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912D91B89CB940072BDE4 /* hiyo_10.png */; };
+		A4A913051B89CB940072BDE4 /* hiyo_11.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912DA1B89CB940072BDE4 /* hiyo_11.png */; };
+		A4A913061B89CB940072BDE4 /* hiyo_12.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912DB1B89CB940072BDE4 /* hiyo_12.png */; };
+		A4A913071B89CB940072BDE4 /* hiyo_13.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912DC1B89CB940072BDE4 /* hiyo_13.png */; };
+		A4A913081B89CB940072BDE4 /* hiyo_14.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912DD1B89CB940072BDE4 /* hiyo_14.png */; };
+		A4A913091B89CB940072BDE4 /* hiyo_15.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912DE1B89CB940072BDE4 /* hiyo_15.png */; };
+		A4A9130A1B89CB940072BDE4 /* hiyo_16.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912DF1B89CB940072BDE4 /* hiyo_16.png */; };
+		A4A9130B1B89CB940072BDE4 /* hiyo_17.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912E01B89CB940072BDE4 /* hiyo_17.png */; };
+		A4A9130C1B89CB940072BDE4 /* hiyo_18.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912E11B89CB940072BDE4 /* hiyo_18.png */; };
+		A4A9130D1B89CB940072BDE4 /* hiyo_19.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912E21B89CB940072BDE4 /* hiyo_19.png */; };
+		A4A9130E1B89CB940072BDE4 /* hiyo_2.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912E31B89CB940072BDE4 /* hiyo_2.png */; };
+		A4A9130F1B89CB940072BDE4 /* hiyo_20.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912E41B89CB940072BDE4 /* hiyo_20.png */; };
+		A4A913101B89CB940072BDE4 /* hiyo_21.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912E51B89CB940072BDE4 /* hiyo_21.png */; };
+		A4A913111B89CB940072BDE4 /* hiyo_22.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912E61B89CB940072BDE4 /* hiyo_22.png */; };
+		A4A913121B89CB940072BDE4 /* hiyo_23.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912E71B89CB940072BDE4 /* hiyo_23.png */; };
+		A4A913131B89CB940072BDE4 /* hiyo_24.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912E81B89CB940072BDE4 /* hiyo_24.png */; };
+		A4A913141B89CB940072BDE4 /* hiyo_25.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912E91B89CB940072BDE4 /* hiyo_25.png */; };
+		A4A913151B89CB940072BDE4 /* hiyo_26.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912EA1B89CB940072BDE4 /* hiyo_26.png */; };
+		A4A913161B89CB940072BDE4 /* hiyo_27.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912EB1B89CB940072BDE4 /* hiyo_27.png */; };
+		A4A913171B89CB940072BDE4 /* hiyo_28.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912EC1B89CB940072BDE4 /* hiyo_28.png */; };
+		A4A913181B89CB940072BDE4 /* hiyo_29.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912ED1B89CB940072BDE4 /* hiyo_29.png */; };
+		A4A913191B89CB940072BDE4 /* hiyo_3.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912EE1B89CB940072BDE4 /* hiyo_3.png */; };
+		A4A9131A1B89CB940072BDE4 /* hiyo_30.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912EF1B89CB940072BDE4 /* hiyo_30.png */; };
+		A4A9131B1B89CB940072BDE4 /* hiyo_31.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912F01B89CB940072BDE4 /* hiyo_31.png */; };
+		A4A9131C1B89CB940072BDE4 /* hiyo_32.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912F11B89CB940072BDE4 /* hiyo_32.png */; };
+		A4A9131D1B89CB940072BDE4 /* hiyo_33.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912F21B89CB940072BDE4 /* hiyo_33.png */; };
+		A4A9131E1B89CB940072BDE4 /* hiyo_34.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912F31B89CB940072BDE4 /* hiyo_34.png */; };
+		A4A9131F1B89CB940072BDE4 /* hiyo_35.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912F41B89CB940072BDE4 /* hiyo_35.png */; };
+		A4A913201B89CB940072BDE4 /* hiyo_36.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912F51B89CB940072BDE4 /* hiyo_36.png */; };
+		A4A913211B89CB940072BDE4 /* hiyo_37.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912F61B89CB940072BDE4 /* hiyo_37.png */; };
+		A4A913221B89CB940072BDE4 /* hiyo_38.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912F71B89CB940072BDE4 /* hiyo_38.png */; };
+		A4A913231B89CB940072BDE4 /* hiyo_39.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912F81B89CB940072BDE4 /* hiyo_39.png */; };
+		A4A913241B89CB940072BDE4 /* hiyo_4.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912F91B89CB940072BDE4 /* hiyo_4.png */; };
+		A4A913251B89CB940072BDE4 /* hiyo_40.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912FA1B89CB940072BDE4 /* hiyo_40.png */; };
+		A4A913261B89CB940072BDE4 /* hiyo_41.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912FB1B89CB940072BDE4 /* hiyo_41.png */; };
+		A4A913271B89CB940072BDE4 /* hiyo_42.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912FC1B89CB940072BDE4 /* hiyo_42.png */; };
+		A4A913281B89CB940072BDE4 /* hiyo_5.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912FD1B89CB940072BDE4 /* hiyo_5.png */; };
+		A4A913291B89CB940072BDE4 /* hiyo_6.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912FE1B89CB940072BDE4 /* hiyo_6.png */; };
+		A4A9132A1B89CB940072BDE4 /* hiyo_7.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A912FF1B89CB940072BDE4 /* hiyo_7.png */; };
+		A4A9132B1B89CB940072BDE4 /* hiyo_8.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A913001B89CB940072BDE4 /* hiyo_8.png */; };
+		A4A9132C1B89CB940072BDE4 /* hiyo_9.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A913011B89CB940072BDE4 /* hiyo_9.png */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -327,91 +285,6 @@
 		521A8EA819F11F5000D177D7 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		52B47A461A53D09B004E4C60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		A43950181B87590000B82821 /* hiyo0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo0.png; sourceTree = "<group>"; };
-		A43950191B87590000B82821 /* hiyo1-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo1-hd.png"; sourceTree = "<group>"; };
-		A439501A1B87590000B82821 /* hiyo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo1.png; sourceTree = "<group>"; };
-		A439501B1B87590000B82821 /* hiyo10-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo10-hd.png"; sourceTree = "<group>"; };
-		A439501C1B87590000B82821 /* hiyo10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo10.png; sourceTree = "<group>"; };
-		A439501D1B87590000B82821 /* hiyo11-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo11-hd.png"; sourceTree = "<group>"; };
-		A439501E1B87590000B82821 /* hiyo11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo11.png; sourceTree = "<group>"; };
-		A439501F1B87590000B82821 /* hiyo12-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo12-hd.png"; sourceTree = "<group>"; };
-		A43950201B87590000B82821 /* hiyo12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo12.png; sourceTree = "<group>"; };
-		A43950211B87590000B82821 /* hiyo13-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo13-hd.png"; sourceTree = "<group>"; };
-		A43950221B87590000B82821 /* hiyo13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo13.png; sourceTree = "<group>"; };
-		A43950231B87590000B82821 /* hiyo14-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo14-hd.png"; sourceTree = "<group>"; };
-		A43950241B87590000B82821 /* hiyo14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo14.png; sourceTree = "<group>"; };
-		A43950251B87590000B82821 /* hiyo15-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo15-hd.png"; sourceTree = "<group>"; };
-		A43950261B87590000B82821 /* hiyo15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo15.png; sourceTree = "<group>"; };
-		A43950271B87590000B82821 /* hiyo16-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo16-hd.png"; sourceTree = "<group>"; };
-		A43950281B87590000B82821 /* hiyo16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo16.png; sourceTree = "<group>"; };
-		A43950291B87590000B82821 /* hiyo17-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo17-hd.png"; sourceTree = "<group>"; };
-		A439502A1B87590000B82821 /* hiyo17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo17.png; sourceTree = "<group>"; };
-		A439502B1B87590000B82821 /* hiyo18-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo18-hd.png"; sourceTree = "<group>"; };
-		A439502C1B87590000B82821 /* hiyo18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo18.png; sourceTree = "<group>"; };
-		A439502D1B87590000B82821 /* hiyo19-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo19-hd.png"; sourceTree = "<group>"; };
-		A439502E1B87590000B82821 /* hiyo19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo19.png; sourceTree = "<group>"; };
-		A439502F1B87590000B82821 /* hiyo2-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo2-hd.png"; sourceTree = "<group>"; };
-		A43950301B87590000B82821 /* hiyo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo2.png; sourceTree = "<group>"; };
-		A43950311B87590000B82821 /* hiyo20-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo20-hd.png"; sourceTree = "<group>"; };
-		A43950321B87590000B82821 /* hiyo20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo20.png; sourceTree = "<group>"; };
-		A43950331B87590000B82821 /* hiyo21-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo21-hd.png"; sourceTree = "<group>"; };
-		A43950341B87590000B82821 /* hiyo21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo21.png; sourceTree = "<group>"; };
-		A43950351B87590000B82821 /* hiyo22-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo22-hd.png"; sourceTree = "<group>"; };
-		A43950361B87590000B82821 /* hiyo22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo22.png; sourceTree = "<group>"; };
-		A43950371B87590000B82821 /* hiyo23-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo23-hd.png"; sourceTree = "<group>"; };
-		A43950381B87590000B82821 /* hiyo23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo23.png; sourceTree = "<group>"; };
-		A43950391B87590000B82821 /* hiyo24-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo24-hd.png"; sourceTree = "<group>"; };
-		A439503A1B87590000B82821 /* hiyo24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo24.png; sourceTree = "<group>"; };
-		A439503B1B87590000B82821 /* hiyo25-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo25-hd.png"; sourceTree = "<group>"; };
-		A439503C1B87590000B82821 /* hiyo25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo25.png; sourceTree = "<group>"; };
-		A439503D1B87590000B82821 /* hiyo26-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo26-hd.png"; sourceTree = "<group>"; };
-		A439503E1B87590000B82821 /* hiyo26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo26.png; sourceTree = "<group>"; };
-		A439503F1B87590000B82821 /* hiyo27-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo27-hd.png"; sourceTree = "<group>"; };
-		A43950401B87590000B82821 /* hiyo27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo27.png; sourceTree = "<group>"; };
-		A43950411B87590000B82821 /* hiyo28-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo28-hd.png"; sourceTree = "<group>"; };
-		A43950421B87590000B82821 /* hiyo28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo28.png; sourceTree = "<group>"; };
-		A43950431B87590000B82821 /* hiyo29-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo29-hd.png"; sourceTree = "<group>"; };
-		A43950441B87590000B82821 /* hiyo29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo29.png; sourceTree = "<group>"; };
-		A43950451B87590000B82821 /* hiyo3-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo3-hd.png"; sourceTree = "<group>"; };
-		A43950461B87590000B82821 /* hiyo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo3.png; sourceTree = "<group>"; };
-		A43950471B87590000B82821 /* hiyo30-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo30-hd.png"; sourceTree = "<group>"; };
-		A43950481B87590000B82821 /* hiyo30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo30.png; sourceTree = "<group>"; };
-		A43950491B87590000B82821 /* hiyo31-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo31-hd.png"; sourceTree = "<group>"; };
-		A439504A1B87590000B82821 /* hiyo31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo31.png; sourceTree = "<group>"; };
-		A439504B1B87590000B82821 /* hiyo32-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo32-hd.png"; sourceTree = "<group>"; };
-		A439504C1B87590000B82821 /* hiyo32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo32.png; sourceTree = "<group>"; };
-		A439504D1B87590000B82821 /* hiyo33-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo33-hd.png"; sourceTree = "<group>"; };
-		A439504E1B87590000B82821 /* hiyo33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo33.png; sourceTree = "<group>"; };
-		A439504F1B87590000B82821 /* hiyo34-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo34-hd.png"; sourceTree = "<group>"; };
-		A43950501B87590000B82821 /* hiyo34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo34.png; sourceTree = "<group>"; };
-		A43950511B87590000B82821 /* hiyo35-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo35-hd.png"; sourceTree = "<group>"; };
-		A43950521B87590000B82821 /* hiyo35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo35.png; sourceTree = "<group>"; };
-		A43950531B87590000B82821 /* hiyo36-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo36-hd.png"; sourceTree = "<group>"; };
-		A43950541B87590000B82821 /* hiyo36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo36.png; sourceTree = "<group>"; };
-		A43950551B87590000B82821 /* hiyo37-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo37-hd.png"; sourceTree = "<group>"; };
-		A43950561B87590000B82821 /* hiyo37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo37.png; sourceTree = "<group>"; };
-		A43950571B87590000B82821 /* hiyo38-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo38-hd.png"; sourceTree = "<group>"; };
-		A43950581B87590000B82821 /* hiyo38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo38.png; sourceTree = "<group>"; };
-		A43950591B87590000B82821 /* hiyo39-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo39-hd.png"; sourceTree = "<group>"; };
-		A439505A1B87590000B82821 /* hiyo39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo39.png; sourceTree = "<group>"; };
-		A439505B1B87590000B82821 /* hiyo4-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo4-hd.png"; sourceTree = "<group>"; };
-		A439505C1B87590000B82821 /* hiyo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo4.png; sourceTree = "<group>"; };
-		A439505D1B87590000B82821 /* hiyo40-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo40-hd.png"; sourceTree = "<group>"; };
-		A439505E1B87590000B82821 /* hiyo40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo40.png; sourceTree = "<group>"; };
-		A439505F1B87590000B82821 /* hiyo41-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo41-hd.png"; sourceTree = "<group>"; };
-		A43950601B87590000B82821 /* hiyo41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo41.png; sourceTree = "<group>"; };
-		A43950611B87590000B82821 /* hiyo42-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo42-hd.png"; sourceTree = "<group>"; };
-		A43950621B87590000B82821 /* hiyo42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo42.png; sourceTree = "<group>"; };
-		A43950631B87590000B82821 /* hiyo5-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo5-hd.png"; sourceTree = "<group>"; };
-		A43950641B87590000B82821 /* hiyo5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo5.png; sourceTree = "<group>"; };
-		A43950651B87590000B82821 /* hiyo6-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo6-hd.png"; sourceTree = "<group>"; };
-		A43950661B87590000B82821 /* hiyo6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo6.png; sourceTree = "<group>"; };
-		A43950671B87590000B82821 /* hiyo7-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo7-hd.png"; sourceTree = "<group>"; };
-		A43950681B87590000B82821 /* hiyo7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo7.png; sourceTree = "<group>"; };
-		A43950691B87590000B82821 /* hiyo8-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo8-hd.png"; sourceTree = "<group>"; };
-		A439506A1B87590000B82821 /* hiyo8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo8.png; sourceTree = "<group>"; };
-		A439506B1B87590000B82821 /* hiyo9-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiyo9-hd.png"; sourceTree = "<group>"; };
-		A439506C1B87590000B82821 /* hiyo9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo9.png; sourceTree = "<group>"; };
 		A439506F1B87590000B82821 /* niwatori.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = niwatori.png; sourceTree = "<group>"; };
 		A43951F61B875A0600B82821 /* OkaSceneLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OkaSceneLayer.cpp; sourceTree = "<group>"; };
 		A43951F71B875A0600B82821 /* OkaSceneLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OkaSceneLayer.h; sourceTree = "<group>"; };
@@ -511,6 +384,49 @@
 		A4A9124E1B89CA8E0072BDE4 /* tamago_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tamago_8.png; sourceTree = "<group>"; };
 		A4A9124F1B89CA8E0072BDE4 /* tamago_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tamago_9.png; sourceTree = "<group>"; };
 		A4A912501B89CA8E0072BDE4 /* tamago_ferver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tamago_ferver.png; sourceTree = "<group>"; };
+		A4A912D71B89CB940072BDE4 /* hiyo_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_0.png; sourceTree = "<group>"; };
+		A4A912D81B89CB940072BDE4 /* hiyo_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_1.png; sourceTree = "<group>"; };
+		A4A912D91B89CB940072BDE4 /* hiyo_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_10.png; sourceTree = "<group>"; };
+		A4A912DA1B89CB940072BDE4 /* hiyo_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_11.png; sourceTree = "<group>"; };
+		A4A912DB1B89CB940072BDE4 /* hiyo_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_12.png; sourceTree = "<group>"; };
+		A4A912DC1B89CB940072BDE4 /* hiyo_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_13.png; sourceTree = "<group>"; };
+		A4A912DD1B89CB940072BDE4 /* hiyo_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_14.png; sourceTree = "<group>"; };
+		A4A912DE1B89CB940072BDE4 /* hiyo_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_15.png; sourceTree = "<group>"; };
+		A4A912DF1B89CB940072BDE4 /* hiyo_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_16.png; sourceTree = "<group>"; };
+		A4A912E01B89CB940072BDE4 /* hiyo_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_17.png; sourceTree = "<group>"; };
+		A4A912E11B89CB940072BDE4 /* hiyo_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_18.png; sourceTree = "<group>"; };
+		A4A912E21B89CB940072BDE4 /* hiyo_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_19.png; sourceTree = "<group>"; };
+		A4A912E31B89CB940072BDE4 /* hiyo_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_2.png; sourceTree = "<group>"; };
+		A4A912E41B89CB940072BDE4 /* hiyo_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_20.png; sourceTree = "<group>"; };
+		A4A912E51B89CB940072BDE4 /* hiyo_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_21.png; sourceTree = "<group>"; };
+		A4A912E61B89CB940072BDE4 /* hiyo_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_22.png; sourceTree = "<group>"; };
+		A4A912E71B89CB940072BDE4 /* hiyo_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_23.png; sourceTree = "<group>"; };
+		A4A912E81B89CB940072BDE4 /* hiyo_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_24.png; sourceTree = "<group>"; };
+		A4A912E91B89CB940072BDE4 /* hiyo_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_25.png; sourceTree = "<group>"; };
+		A4A912EA1B89CB940072BDE4 /* hiyo_26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_26.png; sourceTree = "<group>"; };
+		A4A912EB1B89CB940072BDE4 /* hiyo_27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_27.png; sourceTree = "<group>"; };
+		A4A912EC1B89CB940072BDE4 /* hiyo_28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_28.png; sourceTree = "<group>"; };
+		A4A912ED1B89CB940072BDE4 /* hiyo_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_29.png; sourceTree = "<group>"; };
+		A4A912EE1B89CB940072BDE4 /* hiyo_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_3.png; sourceTree = "<group>"; };
+		A4A912EF1B89CB940072BDE4 /* hiyo_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_30.png; sourceTree = "<group>"; };
+		A4A912F01B89CB940072BDE4 /* hiyo_31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_31.png; sourceTree = "<group>"; };
+		A4A912F11B89CB940072BDE4 /* hiyo_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_32.png; sourceTree = "<group>"; };
+		A4A912F21B89CB940072BDE4 /* hiyo_33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_33.png; sourceTree = "<group>"; };
+		A4A912F31B89CB940072BDE4 /* hiyo_34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_34.png; sourceTree = "<group>"; };
+		A4A912F41B89CB940072BDE4 /* hiyo_35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_35.png; sourceTree = "<group>"; };
+		A4A912F51B89CB940072BDE4 /* hiyo_36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_36.png; sourceTree = "<group>"; };
+		A4A912F61B89CB940072BDE4 /* hiyo_37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_37.png; sourceTree = "<group>"; };
+		A4A912F71B89CB940072BDE4 /* hiyo_38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_38.png; sourceTree = "<group>"; };
+		A4A912F81B89CB940072BDE4 /* hiyo_39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_39.png; sourceTree = "<group>"; };
+		A4A912F91B89CB940072BDE4 /* hiyo_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_4.png; sourceTree = "<group>"; };
+		A4A912FA1B89CB940072BDE4 /* hiyo_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_40.png; sourceTree = "<group>"; };
+		A4A912FB1B89CB940072BDE4 /* hiyo_41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_41.png; sourceTree = "<group>"; };
+		A4A912FC1B89CB940072BDE4 /* hiyo_42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_42.png; sourceTree = "<group>"; };
+		A4A912FD1B89CB940072BDE4 /* hiyo_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_5.png; sourceTree = "<group>"; };
+		A4A912FE1B89CB940072BDE4 /* hiyo_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_6.png; sourceTree = "<group>"; };
+		A4A912FF1B89CB940072BDE4 /* hiyo_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_7.png; sourceTree = "<group>"; };
+		A4A913001B89CB940072BDE4 /* hiyo_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_8.png; sourceTree = "<group>"; };
+		A4A913011B89CB940072BDE4 /* hiyo_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyo_9.png; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -710,102 +626,10 @@
 			children = (
 				A439506D1B87590000B82821 /* Nikwatori */,
 				A4A912241B89CA8E0072BDE4 /* Tamago */,
-				A43950171B87590000B82821 /* Hiyo */,
+				A4A912D61B89CB940072BDE4 /* Hiyo */,
 				A43950CF1B87590000B82821 /* UI */,
 			);
 			path = images;
-			sourceTree = "<group>";
-		};
-		A43950171B87590000B82821 /* Hiyo */ = {
-			isa = PBXGroup;
-			children = (
-				A43950181B87590000B82821 /* hiyo0.png */,
-				A43950191B87590000B82821 /* hiyo1-hd.png */,
-				A439501A1B87590000B82821 /* hiyo1.png */,
-				A439501B1B87590000B82821 /* hiyo10-hd.png */,
-				A439501C1B87590000B82821 /* hiyo10.png */,
-				A439501D1B87590000B82821 /* hiyo11-hd.png */,
-				A439501E1B87590000B82821 /* hiyo11.png */,
-				A439501F1B87590000B82821 /* hiyo12-hd.png */,
-				A43950201B87590000B82821 /* hiyo12.png */,
-				A43950211B87590000B82821 /* hiyo13-hd.png */,
-				A43950221B87590000B82821 /* hiyo13.png */,
-				A43950231B87590000B82821 /* hiyo14-hd.png */,
-				A43950241B87590000B82821 /* hiyo14.png */,
-				A43950251B87590000B82821 /* hiyo15-hd.png */,
-				A43950261B87590000B82821 /* hiyo15.png */,
-				A43950271B87590000B82821 /* hiyo16-hd.png */,
-				A43950281B87590000B82821 /* hiyo16.png */,
-				A43950291B87590000B82821 /* hiyo17-hd.png */,
-				A439502A1B87590000B82821 /* hiyo17.png */,
-				A439502B1B87590000B82821 /* hiyo18-hd.png */,
-				A439502C1B87590000B82821 /* hiyo18.png */,
-				A439502D1B87590000B82821 /* hiyo19-hd.png */,
-				A439502E1B87590000B82821 /* hiyo19.png */,
-				A439502F1B87590000B82821 /* hiyo2-hd.png */,
-				A43950301B87590000B82821 /* hiyo2.png */,
-				A43950311B87590000B82821 /* hiyo20-hd.png */,
-				A43950321B87590000B82821 /* hiyo20.png */,
-				A43950331B87590000B82821 /* hiyo21-hd.png */,
-				A43950341B87590000B82821 /* hiyo21.png */,
-				A43950351B87590000B82821 /* hiyo22-hd.png */,
-				A43950361B87590000B82821 /* hiyo22.png */,
-				A43950371B87590000B82821 /* hiyo23-hd.png */,
-				A43950381B87590000B82821 /* hiyo23.png */,
-				A43950391B87590000B82821 /* hiyo24-hd.png */,
-				A439503A1B87590000B82821 /* hiyo24.png */,
-				A439503B1B87590000B82821 /* hiyo25-hd.png */,
-				A439503C1B87590000B82821 /* hiyo25.png */,
-				A439503D1B87590000B82821 /* hiyo26-hd.png */,
-				A439503E1B87590000B82821 /* hiyo26.png */,
-				A439503F1B87590000B82821 /* hiyo27-hd.png */,
-				A43950401B87590000B82821 /* hiyo27.png */,
-				A43950411B87590000B82821 /* hiyo28-hd.png */,
-				A43950421B87590000B82821 /* hiyo28.png */,
-				A43950431B87590000B82821 /* hiyo29-hd.png */,
-				A43950441B87590000B82821 /* hiyo29.png */,
-				A43950451B87590000B82821 /* hiyo3-hd.png */,
-				A43950461B87590000B82821 /* hiyo3.png */,
-				A43950471B87590000B82821 /* hiyo30-hd.png */,
-				A43950481B87590000B82821 /* hiyo30.png */,
-				A43950491B87590000B82821 /* hiyo31-hd.png */,
-				A439504A1B87590000B82821 /* hiyo31.png */,
-				A439504B1B87590000B82821 /* hiyo32-hd.png */,
-				A439504C1B87590000B82821 /* hiyo32.png */,
-				A439504D1B87590000B82821 /* hiyo33-hd.png */,
-				A439504E1B87590000B82821 /* hiyo33.png */,
-				A439504F1B87590000B82821 /* hiyo34-hd.png */,
-				A43950501B87590000B82821 /* hiyo34.png */,
-				A43950511B87590000B82821 /* hiyo35-hd.png */,
-				A43950521B87590000B82821 /* hiyo35.png */,
-				A43950531B87590000B82821 /* hiyo36-hd.png */,
-				A43950541B87590000B82821 /* hiyo36.png */,
-				A43950551B87590000B82821 /* hiyo37-hd.png */,
-				A43950561B87590000B82821 /* hiyo37.png */,
-				A43950571B87590000B82821 /* hiyo38-hd.png */,
-				A43950581B87590000B82821 /* hiyo38.png */,
-				A43950591B87590000B82821 /* hiyo39-hd.png */,
-				A439505A1B87590000B82821 /* hiyo39.png */,
-				A439505B1B87590000B82821 /* hiyo4-hd.png */,
-				A439505C1B87590000B82821 /* hiyo4.png */,
-				A439505D1B87590000B82821 /* hiyo40-hd.png */,
-				A439505E1B87590000B82821 /* hiyo40.png */,
-				A439505F1B87590000B82821 /* hiyo41-hd.png */,
-				A43950601B87590000B82821 /* hiyo41.png */,
-				A43950611B87590000B82821 /* hiyo42-hd.png */,
-				A43950621B87590000B82821 /* hiyo42.png */,
-				A43950631B87590000B82821 /* hiyo5-hd.png */,
-				A43950641B87590000B82821 /* hiyo5.png */,
-				A43950651B87590000B82821 /* hiyo6-hd.png */,
-				A43950661B87590000B82821 /* hiyo6.png */,
-				A43950671B87590000B82821 /* hiyo7-hd.png */,
-				A43950681B87590000B82821 /* hiyo7.png */,
-				A43950691B87590000B82821 /* hiyo8-hd.png */,
-				A439506A1B87590000B82821 /* hiyo8.png */,
-				A439506B1B87590000B82821 /* hiyo9-hd.png */,
-				A439506C1B87590000B82821 /* hiyo9.png */,
-			);
-			path = Hiyo;
 			sourceTree = "<group>";
 		};
 		A439506D1B87590000B82821 /* Nikwatori */ = {
@@ -982,6 +806,56 @@
 			path = Tamago;
 			sourceTree = "<group>";
 		};
+		A4A912D61B89CB940072BDE4 /* Hiyo */ = {
+			isa = PBXGroup;
+			children = (
+				A4A912D71B89CB940072BDE4 /* hiyo_0.png */,
+				A4A912D81B89CB940072BDE4 /* hiyo_1.png */,
+				A4A912D91B89CB940072BDE4 /* hiyo_10.png */,
+				A4A912DA1B89CB940072BDE4 /* hiyo_11.png */,
+				A4A912DB1B89CB940072BDE4 /* hiyo_12.png */,
+				A4A912DC1B89CB940072BDE4 /* hiyo_13.png */,
+				A4A912DD1B89CB940072BDE4 /* hiyo_14.png */,
+				A4A912DE1B89CB940072BDE4 /* hiyo_15.png */,
+				A4A912DF1B89CB940072BDE4 /* hiyo_16.png */,
+				A4A912E01B89CB940072BDE4 /* hiyo_17.png */,
+				A4A912E11B89CB940072BDE4 /* hiyo_18.png */,
+				A4A912E21B89CB940072BDE4 /* hiyo_19.png */,
+				A4A912E31B89CB940072BDE4 /* hiyo_2.png */,
+				A4A912E41B89CB940072BDE4 /* hiyo_20.png */,
+				A4A912E51B89CB940072BDE4 /* hiyo_21.png */,
+				A4A912E61B89CB940072BDE4 /* hiyo_22.png */,
+				A4A912E71B89CB940072BDE4 /* hiyo_23.png */,
+				A4A912E81B89CB940072BDE4 /* hiyo_24.png */,
+				A4A912E91B89CB940072BDE4 /* hiyo_25.png */,
+				A4A912EA1B89CB940072BDE4 /* hiyo_26.png */,
+				A4A912EB1B89CB940072BDE4 /* hiyo_27.png */,
+				A4A912EC1B89CB940072BDE4 /* hiyo_28.png */,
+				A4A912ED1B89CB940072BDE4 /* hiyo_29.png */,
+				A4A912EE1B89CB940072BDE4 /* hiyo_3.png */,
+				A4A912EF1B89CB940072BDE4 /* hiyo_30.png */,
+				A4A912F01B89CB940072BDE4 /* hiyo_31.png */,
+				A4A912F11B89CB940072BDE4 /* hiyo_32.png */,
+				A4A912F21B89CB940072BDE4 /* hiyo_33.png */,
+				A4A912F31B89CB940072BDE4 /* hiyo_34.png */,
+				A4A912F41B89CB940072BDE4 /* hiyo_35.png */,
+				A4A912F51B89CB940072BDE4 /* hiyo_36.png */,
+				A4A912F61B89CB940072BDE4 /* hiyo_37.png */,
+				A4A912F71B89CB940072BDE4 /* hiyo_38.png */,
+				A4A912F81B89CB940072BDE4 /* hiyo_39.png */,
+				A4A912F91B89CB940072BDE4 /* hiyo_4.png */,
+				A4A912FA1B89CB940072BDE4 /* hiyo_40.png */,
+				A4A912FB1B89CB940072BDE4 /* hiyo_41.png */,
+				A4A912FC1B89CB940072BDE4 /* hiyo_42.png */,
+				A4A912FD1B89CB940072BDE4 /* hiyo_5.png */,
+				A4A912FE1B89CB940072BDE4 /* hiyo_6.png */,
+				A4A912FF1B89CB940072BDE4 /* hiyo_7.png */,
+				A4A913001B89CB940072BDE4 /* hiyo_8.png */,
+				A4A913011B89CB940072BDE4 /* hiyo_9.png */,
+			);
+			path = Hiyo;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1082,9 +956,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A43951201B87590000B82821 /* hiyo19.png in Resources */,
-				A43951511B87590000B82821 /* hiyo41-hd.png in Resources */,
-				A439512D1B87590000B82821 /* hiyo25-hd.png in Resources */,
 				A4A912701B89CA8E0072BDE4 /* tamago_37.png in Resources */,
 				A43952E51B88D8BE00B82821 /* btn1_1-hd.png in Resources */,
 				A4A912751B89CA8E0072BDE4 /* tamago_41.png in Resources */,
@@ -1092,193 +963,154 @@
 				A439530E1B88EE5900B82821 /* img_timer.png in Resources */,
 				A439530D1B88EE5900B82821 /* bg_nohara.png in Resources */,
 				A43952E41B88D8BE00B82821 /* bg_zukan_shousai.png in Resources */,
-				A43951431B87590000B82821 /* hiyo35-hd.png in Resources */,
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
 				A4A9127C1B89CA8E0072BDE4 /* tamago_ferver.png in Resources */,
 				A4A912771B89CA8E0072BDE4 /* tamago_5.png in Resources */,
-				A43951171B87590000B82821 /* hiyo15-hd.png in Resources */,
+				A4A9132A1B89CB940072BDE4 /* hiyo_7.png in Resources */,
 				A4A912651B89CA8E0072BDE4 /* tamago_27.png in Resources */,
-				A43951131B87590000B82821 /* hiyo13-hd.png in Resources */,
-				A439512C1B87590000B82821 /* hiyo24.png in Resources */,
+				A4A913291B89CB940072BDE4 /* hiyo_6.png in Resources */,
 				A43952EA1B88D8BE00B82821 /* btn2_1.png in Resources */,
-				A43951401B87590000B82821 /* hiyo33.png in Resources */,
 				A4A912741B89CA8E0072BDE4 /* tamago_40.png in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
+				A4A913021B89CB940072BDE4 /* hiyo_0.png in Resources */,
 				A4A912781B89CA8E0072BDE4 /* tamago_6.png in Resources */,
 				A43952F81B88D8BE00B82821 /* btn5_2.png in Resources */,
-				A43951541B87590000B82821 /* hiyo42.png in Resources */,
 				A43952F61B88D8BE00B82821 /* btn5_1.png in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
 				A4A912621B89CA8E0072BDE4 /* tamago_24.png in Resources */,
 				A43952FA1B88D8BE00B82821 /* btn6_1.png in Resources */,
-				A43951211B87590000B82821 /* hiyo2-hd.png in Resources */,
+				A4A9131E1B89CB940072BDE4 /* hiyo_34.png in Resources */,
+				A4A913161B89CB940072BDE4 /* hiyo_27.png in Resources */,
 				A43952CD1B88D8BE00B82821 /* img_data_bar.png in Resources */,
+				A4A913031B89CB940072BDE4 /* hiyo_1.png in Resources */,
+				A4A913261B89CB940072BDE4 /* hiyo_41.png in Resources */,
 				A43952E31B88D8BE00B82821 /* bg_zukan_shousai-hd.png in Resources */,
-				A439513A1B87590000B82821 /* hiyo30.png in Resources */,
-				A439515B1B87590000B82821 /* hiyo8-hd.png in Resources */,
-				A43951221B87590000B82821 /* hiyo2.png in Resources */,
+				A4A913231B89CB940072BDE4 /* hiyo_39.png in Resources */,
 				A43952CA1B88D8BE00B82821 /* btn_asobu.png in Resources */,
+				A4A913221B89CB940072BDE4 /* hiyo_38.png in Resources */,
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
 				A4A912791B89CA8E0072BDE4 /* tamago_7.png in Resources */,
+				A4A913241B89CB940072BDE4 /* hiyo_4.png in Resources */,
+				A4A9131A1B89CB940072BDE4 /* hiyo_30.png in Resources */,
 				A43953011B88D9E200B82821 /* niwatori_kohun_1.png in Resources */,
 				A4A912571B89CA8E0072BDE4 /* tamago_14.png in Resources */,
 				A43952C91B88D8BE00B82821 /* btn_asobikata.png in Resources */,
-				A439511C1B87590000B82821 /* hiyo17.png in Resources */,
+				A4A9130B1B89CB940072BDE4 /* hiyo_17.png in Resources */,
 				A4A912671B89CA8E0072BDE4 /* tamago_29.png in Resources */,
-				A439511D1B87590000B82821 /* hiyo18-hd.png in Resources */,
-				A439512F1B87590000B82821 /* hiyo26-hd.png in Resources */,
 				A43952F01B88D8BE00B82821 /* btn3_2.png in Resources */,
 				A4A912591B89CA8E0072BDE4 /* tamago_16.png in Resources */,
-				A439513E1B87590000B82821 /* hiyo32.png in Resources */,
+				A4A9131B1B89CB940072BDE4 /* hiyo_31.png in Resources */,
 				A43952E81B88D8BE00B82821 /* btn1_2.png in Resources */,
-				A43951331B87590000B82821 /* hiyo28-hd.png in Resources */,
+				A4A913071B89CB940072BDE4 /* hiyo_13.png in Resources */,
 				5087E78317EB970100C73F5D /* Icon-152.png in Resources */,
 				A4A912611B89CA8E0072BDE4 /* tamago_23.png in Resources */,
-				A43951351B87590000B82821 /* hiyo29-hd.png in Resources */,
-				A43951291B87590000B82821 /* hiyo23-hd.png in Resources */,
 				A4A912541B89CA8E0072BDE4 /* tamago_11.png in Resources */,
+				A4A913251B89CB940072BDE4 /* hiyo_40.png in Resources */,
 				A43953031B88D9E200B82821 /* niwatori_odoroku.png in Resources */,
-				A439512B1B87590000B82821 /* hiyo24-hd.png in Resources */,
-				A43951281B87590000B82821 /* hiyo22.png in Resources */,
+				A4A913081B89CB940072BDE4 /* hiyo_14.png in Resources */,
+				A4A913171B89CB940072BDE4 /* hiyo_28.png in Resources */,
 				A43952F11B88D8BE00B82821 /* btn4_1-hd.png in Resources */,
+				A4A9130F1B89CB940072BDE4 /* hiyo_20.png in Resources */,
 				A43952EE1B88D8BE00B82821 /* btn3_1.png in Resources */,
 				A4A9125B1B89CA8E0072BDE4 /* tamago_18.png in Resources */,
 				A4A9127A1B89CA8E0072BDE4 /* tamago_8.png in Resources */,
 				A4A912681B89CA8E0072BDE4 /* tamago_3.png in Resources */,
 				A43952C71B88D8BE00B82821 /* img_asobikata_2.png in Resources */,
+				A4A9131D1B89CB940072BDE4 /* hiyo_33.png in Resources */,
 				46880B8119C43A67006E1F66 /* HelloWorld.png in Resources */,
-				A43951261B87590000B82821 /* hiyo21.png in Resources */,
-				A43951521B87590000B82821 /* hiyo41.png in Resources */,
-				A43951101B87590000B82821 /* hiyo11.png in Resources */,
-				A439514B1B87590000B82821 /* hiyo39-hd.png in Resources */,
+				A4A913101B89CB940072BDE4 /* hiyo_21.png in Resources */,
 				A4A9126A1B89CA8E0072BDE4 /* tamago_31.png in Resources */,
 				A4A912581B89CA8E0072BDE4 /* tamago_15.png in Resources */,
 				46880B7D19C43A67006E1F66 /* CloseSelected.png in Resources */,
-				A439512E1B87590000B82821 /* hiyo25.png in Resources */,
+				A4A9132C1B89CB940072BDE4 /* hiyo_9.png in Resources */,
+				A4A913051B89CB940072BDE4 /* hiyo_11.png in Resources */,
 				A4A912511B89CA8E0072BDE4 /* tamago_0.png in Resources */,
-				A43951361B87590000B82821 /* hiyo29.png in Resources */,
+				A4A913271B89CB940072BDE4 /* hiyo_42.png in Resources */,
 				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,
+				A4A913061B89CB940072BDE4 /* hiyo_12.png in Resources */,
 				A43952F51B88D8BE00B82821 /* btn5_1-hd.png in Resources */,
 				A43952DC1B88D8BE00B82821 /* bg_oka.png in Resources */,
-				A439512A1B87590000B82821 /* hiyo23.png in Resources */,
 				A4A912601B89CA8E0072BDE4 /* tamago_22.png in Resources */,
-				A439514E1B87590000B82821 /* hiyo4.png in Resources */,
 				A4A9127B1B89CA8E0072BDE4 /* tamago_9.png in Resources */,
 				5087E78517EB970100C73F5D /* Icon-72.png in Resources */,
+				A4A913191B89CB940072BDE4 /* hiyo_3.png in Resources */,
 				521A8E6519F0C34300D177D7 /* Default-736h@3x.png in Resources */,
-				A439511B1B87590000B82821 /* hiyo17-hd.png in Resources */,
-				A439514C1B87590000B82821 /* hiyo39.png in Resources */,
-				A439510C1B87590000B82821 /* hiyo1.png in Resources */,
 				A43952EF1B88D8BE00B82821 /* btn3_2-hd.png in Resources */,
-				A43951341B87590000B82821 /* hiyo28.png in Resources */,
-				A439510F1B87590000B82821 /* hiyo11-hd.png in Resources */,
-				A43951141B87590000B82821 /* hiyo13.png in Resources */,
-				A43951551B87590000B82821 /* hiyo5-hd.png in Resources */,
-				A43951461B87590000B82821 /* hiyo36.png in Resources */,
-				A43951321B87590000B82821 /* hiyo27.png in Resources */,
 				A4A9126D1B89CA8E0072BDE4 /* tamago_34.png in Resources */,
-				A439513B1B87590000B82821 /* hiyo31-hd.png in Resources */,
-				A43951271B87590000B82821 /* hiyo22-hd.png in Resources */,
-				A43951161B87590000B82821 /* hiyo14.png in Resources */,
 				A43952EC1B88D8BE00B82821 /* btn2_2.png in Resources */,
+				A4A913141B89CB940072BDE4 /* hiyo_25.png in Resources */,
 				521A8EA919F11F5000D177D7 /* fonts in Resources */,
 				A4A9125F1B89CA8E0072BDE4 /* tamago_21.png in Resources */,
+				A4A9131C1B89CB940072BDE4 /* hiyo_32.png in Resources */,
 				A43952C81B88D8BE00B82821 /* bg_koya.png in Resources */,
-				A43951111B87590000B82821 /* hiyo12-hd.png in Resources */,
-				A43951151B87590000B82821 /* hiyo14-hd.png in Resources */,
 				A43952F91B88D8BE00B82821 /* btn6_1-hd.png in Resources */,
-				A43951231B87590000B82821 /* hiyo20-hd.png in Resources */,
-				A43951371B87590000B82821 /* hiyo3-hd.png in Resources */,
 				A4A9125D1B89CA8E0072BDE4 /* tamago_2.png in Resources */,
 				50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */,
-				A43951591B87590000B82821 /* hiyo7-hd.png in Resources */,
 				A43952F41B88D8BE00B82821 /* btn4_2.png in Resources */,
 				A4A912731B89CA8E0072BDE4 /* tamago_4.png in Resources */,
-				A43951451B87590000B82821 /* hiyo36-hd.png in Resources */,
-				A439511A1B87590000B82821 /* hiyo16.png in Resources */,
 				A4A912631B89CA8E0072BDE4 /* tamago_25.png in Resources */,
+				A4A913281B89CB940072BDE4 /* hiyo_5.png in Resources */,
 				A4A912691B89CA8E0072BDE4 /* tamago_30.png in Resources */,
-				A43951311B87590000B82821 /* hiyo27-hd.png in Resources */,
-				A439513C1B87590000B82821 /* hiyo31.png in Resources */,
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
-				A43951491B87590000B82821 /* hiyo38-hd.png in Resources */,
 				A43952F31B88D8BE00B82821 /* btn4_2-hd.png in Resources */,
-				A43951571B87590000B82821 /* hiyo6-hd.png in Resources */,
-				A43951181B87590000B82821 /* hiyo15.png in Resources */,
 				A4A9126E1B89CA8E0072BDE4 /* tamago_35.png in Resources */,
 				A43952E71B88D8BE00B82821 /* btn1_2-hd.png in Resources */,
+				A4A9130C1B89CB940072BDE4 /* hiyo_18.png in Resources */,
 				A4A9126B1B89CA8E0072BDE4 /* tamago_32.png in Resources */,
-				A439510D1B87590000B82821 /* hiyo10-hd.png in Resources */,
-				A439513D1B87590000B82821 /* hiyo32-hd.png in Resources */,
+				A4A913041B89CB940072BDE4 /* hiyo_10.png in Resources */,
 				A4A9125C1B89CA8E0072BDE4 /* tamago_19.png in Resources */,
 				A43952E61B88D8BE00B82821 /* btn1_1.png in Resources */,
-				A439510A1B87590000B82821 /* hiyo0.png in Resources */,
+				A4A913201B89CB940072BDE4 /* hiyo_36.png in Resources */,
 				A43952ED1B88D8BE00B82821 /* btn3_1-hd.png in Resources */,
-				A43951411B87590000B82821 /* hiyo34-hd.png in Resources */,
+				A4A913211B89CB940072BDE4 /* hiyo_37.png in Resources */,
 				A43952E91B88D8BE00B82821 /* btn2_1-hd.png in Resources */,
 				50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */,
+				A4A9130E1B89CB940072BDE4 /* hiyo_2.png in Resources */,
+				A4A913091B89CB940072BDE4 /* hiyo_15.png in Resources */,
 				A43952E21B88D8BE00B82821 /* logo_hiyotama.png in Resources */,
-				A43951531B87590000B82821 /* hiyo42-hd.png in Resources */,
 				50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */,
-				A43951381B87590000B82821 /* hiyo3.png in Resources */,
-				A43951391B87590000B82821 /* hiyo30-hd.png in Resources */,
-				A43951501B87590000B82821 /* hiyo40.png in Resources */,
-				A439514A1B87590000B82821 /* hiyo38.png in Resources */,
-				A43951471B87590000B82821 /* hiyo37-hd.png in Resources */,
-				A43951421B87590000B82821 /* hiyo34.png in Resources */,
 				A43953041B88D9E200B82821 /* niwatori_tsukareta.png in Resources */,
 				A439530F1B88EE5900B82821 /* img_touch_arrow.png in Resources */,
 				A43951601B87590000B82821 /* niwatori.png in Resources */,
-				A439514D1B87590000B82821 /* hiyo4-hd.png in Resources */,
-				A43951561B87590000B82821 /* hiyo5.png in Resources */,
+				A4A9130D1B89CB940072BDE4 /* hiyo_19.png in Resources */,
+				A4A913121B89CB940072BDE4 /* hiyo_23.png in Resources */,
 				A43953061B88D9F800B82821 /* btn_game_start.png in Resources */,
-				A439515E1B87590000B82821 /* hiyo9.png in Resources */,
-				A439510B1B87590000B82821 /* hiyo1-hd.png in Resources */,
 				A4A912711B89CA8E0072BDE4 /* tamago_38.png in Resources */,
-				A43951441B87590000B82821 /* hiyo35.png in Resources */,
-				A43951251B87590000B82821 /* hiyo21-hd.png in Resources */,
 				A43952C61B88D8BE00B82821 /* img_asobikata_1.png in Resources */,
 				A4A9126F1B89CA8E0072BDE4 /* tamago_36.png in Resources */,
+				A4A913151B89CB940072BDE4 /* hiyo_26.png in Resources */,
 				A4A9125E1B89CA8E0072BDE4 /* tamago_20.png in Resources */,
-				A43951241B87590000B82821 /* hiyo20.png in Resources */,
+				A4A9131F1B89CB940072BDE4 /* hiyo_35.png in Resources */,
 				5087E78217EB970100C73F5D /* Icon-144.png in Resources */,
 				3EACC98F19EE6D4300EB3C5E /* res in Resources */,
-				A43951481B87590000B82821 /* hiyo37.png in Resources */,
 				A4A912761B89CA8E0072BDE4 /* tamago_42.png in Resources */,
 				A4A912721B89CA8E0072BDE4 /* tamago_39.png in Resources */,
+				A4A9130A1B89CB940072BDE4 /* hiyo_16.png in Resources */,
 				A43952CB1B88D8BE00B82821 /* btn_modoru_oka.png in Resources */,
 				A43952CC1B88D8BE00B82821 /* btn_zukan.png in Resources */,
 				50EF629817ECD46A001EB2F8 /* Icon-80.png in Resources */,
 				A4A912661B89CA8E0072BDE4 /* tamago_28.png in Resources */,
-				A43951121B87590000B82821 /* hiyo12.png in Resources */,
 				A43953021B88D9E200B82821 /* niwatori_kohun_2.png in Resources */,
-				A43951301B87590000B82821 /* hiyo26.png in Resources */,
 				A43952FC1B88D8BE00B82821 /* btn6_2.png in Resources */,
 				A4A912521B89CA8E0072BDE4 /* tamago_1.png in Resources */,
-				A439513F1B87590000B82821 /* hiyo33-hd.png in Resources */,
-				A439515C1B87590000B82821 /* hiyo8.png in Resources */,
 				A43952F71B88D8BE00B82821 /* btn5_2-hd.png in Resources */,
 				A4A9126C1B89CA8E0072BDE4 /* tamago_33.png in Resources */,
 				A43952F21B88D8BE00B82821 /* btn4_1.png in Resources */,
-				A439515A1B87590000B82821 /* hiyo7.png in Resources */,
 				5087E78417EB970100C73F5D /* Icon-57.png in Resources */,
-				A439514F1B87590000B82821 /* hiyo40-hd.png in Resources */,
+				A4A913131B89CB940072BDE4 /* hiyo_24.png in Resources */,
+				A4A913181B89CB940072BDE4 /* hiyo_29.png in Resources */,
 				5087E77E17EB970100C73F5D /* Default.png in Resources */,
 				A43952FB1B88D8BE00B82821 /* btn6_2-hd.png in Resources */,
 				A4A912561B89CA8E0072BDE4 /* tamago_13.png in Resources */,
 				521A8E6419F0C34300D177D7 /* Default-667h@2x.png in Resources */,
 				A4A912551B89CA8E0072BDE4 /* tamago_12.png in Resources */,
+				A4A913111B89CB940072BDE4 /* hiyo_22.png in Resources */,
 				A43952EB1B88D8BE00B82821 /* btn2_2-hd.png in Resources */,
 				A4A912641B89CA8E0072BDE4 /* tamago_26.png in Resources */,
-				A439511E1B87590000B82821 /* hiyo18.png in Resources */,
-				A439515D1B87590000B82821 /* hiyo9-hd.png in Resources */,
 				A4A912531B89CA8E0072BDE4 /* tamago_10.png in Resources */,
-				A439511F1B87590000B82821 /* hiyo19-hd.png in Resources */,
-				A43951581B87590000B82821 /* hiyo6.png in Resources */,
 				46880B7B19C43A67006E1F66 /* CloseNormal.png in Resources */,
 				50EF629717ECD46A001EB2F8 /* Icon-58.png in Resources */,
-				A439510E1B87590000B82821 /* hiyo10.png in Resources */,
-				A43951191B87590000B82821 /* hiyo16-hd.png in Resources */,
+				A4A9132B1B89CB940072BDE4 /* hiyo_8.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
