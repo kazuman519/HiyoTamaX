@@ -27,6 +27,8 @@ private:
     int mJoutai;
     float mNokoriJikan;
     
+    cocos2d::Label* mTimerLabel;
+    
     void initHaikei();
     void initNiwatori();
     void initTouchArrow();
