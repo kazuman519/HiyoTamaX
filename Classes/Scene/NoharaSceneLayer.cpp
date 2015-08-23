@@ -74,7 +74,7 @@ void NoharaSceneLayer::initNiwatori()
 {
     auto niwatori = Niwatori::create();
     niwatori->setAnchorPoint(Vec2(0.5f, 0));
-    niwatori->setScale(0.8f);
+    niwatori->setScale(0.75f);
     niwatori->setPosition(Vec2(niwatori->getBoundingBox().size.width/2 + 25,
                                100));
     this->addChild(niwatori, Z_NIWATORI);
