@@ -31,7 +31,6 @@ public:
     virtual bool initWithNumber(int number);
     
 private:
-    void initImage();
 };
 
 #endif /* defined(__HiyoTamaX__Tamago__) */

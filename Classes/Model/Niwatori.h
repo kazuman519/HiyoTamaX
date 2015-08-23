@@ -22,17 +22,18 @@ public:
     bool onTouchBegan(Touch* pTouch, Event* pEvent);
     void onTouchEnded(Touch* pTouch, Event* pEvent);
     
+    void actionTsujou();
+    void actionSanran();
+    void actionOdoroku();
+    void actionTsukareta();
+    void actionYondekuru();
+    
     CREATE_FUNC(Niwatori);
     
 private:
     float _tempScale;
     
     void initEventListener();
-    
-    void actionTsujou();
-    void actionUmu();
-    void actionOdoroku();
-    void actionTsukareta();
 };
 
 #endif /* defined(__HiyoTamaX__Niwatori__) */

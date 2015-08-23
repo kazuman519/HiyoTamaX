@@ -7,8 +7,7 @@
 //
 
 #include "Niwatori.h"
-#include "NoharaSceneLayer.h"
-
+#include "Tamago.h"
 
 
 #pragma mark - init
@@ -38,8 +37,11 @@ void Niwatori::initEventListener()
 
 bool Niwatori::onTouchBegan(Touch *pTouch, Event *pEvent)
 {
+    // TODO:大きくするのアニメーションで大きくしたい
     _tempScale = this->getScale();
-    this->setScale(this->getScale() * 0.95f);
+    this->setScale(this->getScale() * 1.05f);
+    
+    actionSanran();
     
     return true;
 }
@@ -47,4 +49,30 @@ bool Niwatori::onTouchBegan(Touch *pTouch, Event *pEvent)
 void Niwatori::onTouchEnded(Touch *pTouch, Event *pEvent)
 {
     this->setScale(_tempScale);
+}
+
+
+#pragma mark - action methods
+
+void Niwatori::actionSanran()
+{
+    // 卵生成
+    auto tamago = Tamago::createWithNumber(1);
+    tamago->setPosition(Vec2(this->getPosition().x + this->getBoundingBox().size.width * 0.3,
+                             this->getPosition().y + this->getBoundingBox().size.height * 0.4));
+    tamago->setRotation(rand() % 360);
+    this->getParent()->addChild(tamago, this->getLocalZOrder() - 1);
+    
+    // アクション
+    auto jump = JumpBy::create(0.5f,
+                               Vec2(this->getBoundingBox().size.width * 0.5f,
+                                    this->getPositionY() - tamago->getBoundingBox().origin.y
+                                    ), 200, 1);
+    auto move = MoveBy::create(4, Vec2(this->getParent()->getContentSize().width,
+                                       0));
+    auto sequence = Sequence::create(jump, move, NULL);
+    auto rotate = RotateTo::create(5, 10000);
+    auto spawn = Spawn::create(sequence, rotate, NULL);
+    
+    tamago->runAction(spawn);
 }
