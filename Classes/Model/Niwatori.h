@@ -11,13 +11,29 @@
 
 #include "cocos2d.h"
 
+USING_NS_CC;
 
-class Niwatori : public cocos2d::Node
+
+class Niwatori : public Node
 {
 public:
     virtual bool init();
     
+    bool onTouchBegan(Touch* pTouch, Event* pEvent);
+    void onTouchEnded(Touch* pTouch, Event* pEvent);
+    
     CREATE_FUNC(Niwatori);
+    
+private:
+    float _tempScale;
+    
+    void initImage();
+    void initEventListener();
+    
+    void actionTsujou();
+    void actionUmu();
+    void actionOdoroku();
+    void actionTsukareta();
 };
 
 #endif /* defined(__HiyoTamaX__Niwatori__) */

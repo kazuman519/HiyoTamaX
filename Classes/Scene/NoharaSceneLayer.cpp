@@ -8,6 +8,7 @@
 
 #include "NoharaSceneLayer.h"
 #include <ui/CocosGUI.h>
+#include "Niwatori.h"
 
 USING_NS_CC;
 using namespace ui;
@@ -59,6 +60,11 @@ bool NoharaSceneLayer::init()
     initTimer();
     
     this->scheduleUpdate();
+    
+    auto niwatori = Niwatori::create();
+    niwatori->setPosition(Vec2(mGamenSize.width/2, mGamenSize.height/2));
+    niwatori->setScale(0.2);
+    this->addChild(niwatori);
     
     return true;
 }
