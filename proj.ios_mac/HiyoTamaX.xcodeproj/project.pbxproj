@@ -278,6 +278,7 @@
 		A439530E1B88EE5900B82821 /* img_timer.png in Resources */ = {isa = PBXBuildFile; fileRef = A439530B1B88EE5900B82821 /* img_timer.png */; };
 		A439530F1B88EE5900B82821 /* img_touch_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A439530C1B88EE5900B82821 /* img_touch_arrow.png */; };
 		A43953131B8981D200B82821 /* Niwatori.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A43953111B8981D200B82821 /* Niwatori.cpp */; };
+		A4A912231B89C89A0072BDE4 /* Tamago.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4A912211B89C89A0072BDE4 /* Tamago.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -592,6 +593,8 @@
 		A439530C1B88EE5900B82821 /* img_touch_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_touch_arrow.png; sourceTree = "<group>"; };
 		A43953111B8981D200B82821 /* Niwatori.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Niwatori.cpp; sourceTree = "<group>"; };
 		A43953121B8981D200B82821 /* Niwatori.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Niwatori.h; sourceTree = "<group>"; };
+		A4A912211B89C89A0072BDE4 /* Tamago.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tamago.cpp; sourceTree = "<group>"; };
+		A4A912221B89C89A0072BDE4 /* Tamago.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tamago.h; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -1099,6 +1102,8 @@
 			children = (
 				A43953111B8981D200B82821 /* Niwatori.cpp */,
 				A43953121B8981D200B82821 /* Niwatori.h */,
+				A4A912211B89C89A0072BDE4 /* Tamago.cpp */,
+				A4A912221B89C89A0072BDE4 /* Tamago.h */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1466,6 +1471,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
+				A4A912231B89C89A0072BDE4 /* Tamago.cpp in Sources */,
 				A43951F81B875A0600B82821 /* OkaSceneLayer.cpp in Sources */,
 				A43953131B8981D200B82821 /* Niwatori.cpp in Sources */,
 				A43953091B88E8AF00B82821 /* NoharaSceneLayer.cpp in Sources */,
