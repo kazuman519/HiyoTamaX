@@ -277,6 +277,7 @@
 		A439530D1B88EE5900B82821 /* bg_nohara.png in Resources */ = {isa = PBXBuildFile; fileRef = A439530A1B88EE5900B82821 /* bg_nohara.png */; };
 		A439530E1B88EE5900B82821 /* img_timer.png in Resources */ = {isa = PBXBuildFile; fileRef = A439530B1B88EE5900B82821 /* img_timer.png */; };
 		A439530F1B88EE5900B82821 /* img_touch_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A439530C1B88EE5900B82821 /* img_touch_arrow.png */; };
+		A43953131B8981D200B82821 /* Niwatori.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A43953111B8981D200B82821 /* Niwatori.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -589,6 +590,8 @@
 		A439530A1B88EE5900B82821 /* bg_nohara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_nohara.png; sourceTree = "<group>"; };
 		A439530B1B88EE5900B82821 /* img_timer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_timer.png; sourceTree = "<group>"; };
 		A439530C1B88EE5900B82821 /* img_touch_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_touch_arrow.png; sourceTree = "<group>"; };
+		A43953111B8981D200B82821 /* Niwatori.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Niwatori.cpp; sourceTree = "<group>"; };
+		A43953121B8981D200B82821 /* Niwatori.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Niwatori.h; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -730,6 +733,7 @@
 				46880B8419C43A87006E1F66 /* AppDelegate.cpp */,
 				46880B8519C43A87006E1F66 /* AppDelegate.h */,
 				A43951F51B8759B000B82821 /* Scene */,
+				A43953101B8980F900B82821 /* Model */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -1088,6 +1092,15 @@
 				A43952C51B88D8BE00B82821 /* btn6_2.png */,
 			);
 			path = Zukan;
+			sourceTree = "<group>";
+		};
+		A43953101B8980F900B82821 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A43953111B8981D200B82821 /* Niwatori.cpp */,
+				A43953121B8981D200B82821 /* Niwatori.h */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1454,6 +1467,7 @@
 			files = (
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				A43951F81B875A0600B82821 /* OkaSceneLayer.cpp in Sources */,
+				A43953131B8981D200B82821 /* Niwatori.cpp in Sources */,
 				A43953091B88E8AF00B82821 /* NoharaSceneLayer.cpp in Sources */,
 				A43952161B88CC1600B82821 /* KoyaSceneLayer.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
