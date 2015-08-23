@@ -7,7 +7,6 @@
 //
 
 #include "NoharaSceneLayer.h"
-#include "Niwatori.h"
 
 const float MAX_JIKAN = 10.0f;
 
@@ -73,12 +72,12 @@ void NoharaSceneLayer::initHaikei()
 
 void NoharaSceneLayer::initNiwatori()
 {
-    auto niwatori = Niwatori::create();
-    niwatori->setAnchorPoint(Vec2(0.5f, 0));
-    niwatori->setScale(0.75f);
-    niwatori->setPosition(Vec2(niwatori->getBoundingBox().size.width/2 + 25,
+    _niwatori = Niwatori::create();
+    _niwatori->setAnchorPoint(Vec2(0.5f, 0));
+    _niwatori->setScale(0.75f);
+    _niwatori->setPosition(Vec2(_niwatori->getBoundingBox().size.width/2 + 25,
                                100));
-    this->addChild(niwatori, Z_NIWATORI);
+    this->addChild(_niwatori, Z_NIWATORI);
 }
 
 void NoharaSceneLayer::initTimer()
@@ -117,7 +116,6 @@ void NoharaSceneLayer::update(float frame)
         
         if (_nokoriJikan <= 0) {
             _nokoriJikan = 0;
-            _joutai = JOUTAI_OWARI;
             
             finishGame();
         }
@@ -140,11 +138,15 @@ void NoharaSceneLayer::startGame()
     
     actionSign(sprite, CallFunc::create([this]() {
         _joutai = JOUTAI_RENDA;
+        _niwatori->setEnabled(true);
     }));
 }
 
 void NoharaSceneLayer::finishGame()
 {
+    _joutai = JOUTAI_OWARI;
+    _niwatori->setEnabled(false);
+    
     auto sprite = Sprite::create("img_finish_sign.png");
     sprite->setPosition(Vec2(_gamenSize.width/2,
                              _gamenSize.height/2));

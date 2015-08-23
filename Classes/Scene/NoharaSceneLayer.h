@@ -11,6 +11,7 @@
 
 #include "cocos2d.h"
 #include <ui/CocosGUI.h>
+#include "Niwatori.h"
 
 USING_NS_CC;
 using namespace ui;
@@ -31,6 +32,7 @@ private:
     int _joutai;
     float _nokoriJikan;
     
+    Niwatori* _niwatori;
     Label* _timerLabel;
     
     void initHaikei();
