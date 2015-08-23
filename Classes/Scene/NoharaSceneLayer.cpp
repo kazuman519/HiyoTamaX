@@ -59,7 +59,7 @@ bool NoharaSceneLayer::init()
     
     auto niwatori = Niwatori::create();
     niwatori->setPosition(Vec2(_gamenSize.width/2, _gamenSize.height/2));
-    niwatori->setScale(0.2);
+    niwatori->setScale(0.5);
     this->addChild(niwatori);
     
     return true;

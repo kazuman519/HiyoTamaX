@@ -45,7 +45,7 @@ void Niwatori::initEventListener()
 bool Niwatori::onTouchBegan(Touch *pTouch, Event *pEvent)
 {
     _tempScale = this->getScale();
-    this->setScale(this->getScale() * 0.9f);
+    this->setScale(this->getScale() * 0.95f);
     return true;
 }
 
