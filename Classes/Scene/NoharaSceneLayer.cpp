@@ -8,7 +8,6 @@
 
 #include "NoharaSceneLayer.h"
 #include "Niwatori.h"
-#include "Tamago.h"
 
 const float MAX_JIKAN = 10.0f;
 
@@ -53,21 +52,11 @@ bool NoharaSceneLayer::init()
     _nokoriJikan = MAX_JIKAN;
     
     initHaikei();
+    initNiwatori();
     
     initTimer();
     
     this->scheduleUpdate();
-    
-    auto niwatori = Niwatori::create();
-    niwatori->setAnchorPoint(Vec2(0.5f, 0));
-    niwatori->setPosition(Vec2(_gamenSize.width/2, _gamenSize.height/2));
-    niwatori->setScale(0.5);
-    this->addChild(niwatori);
-    
-    auto tamago = Tamago::createWithNumber(1);
-    tamago->setPosition(Vec2(niwatori->getPosition().x + niwatori->getBoundingBox().size.width/2,
-                             niwatori->getPosition().y));
-    this->addChild(tamago);
     
     return true;
 }
@@ -81,6 +70,15 @@ void NoharaSceneLayer::initHaikei()
     this->addChild(haikei, Z_HAIKEI);
 }
 
+void NoharaSceneLayer::initNiwatori()
+{
+    auto niwatori = Niwatori::create();
+    niwatori->setAnchorPoint(Vec2(0.5f, 0));
+    niwatori->setScale(0.8f);
+    niwatori->setPosition(Vec2(niwatori->getBoundingBox().size.width/2 + 25,
+                               100));
+    this->addChild(niwatori, Z_NIWATORI);
+}
 
 void NoharaSceneLayer::initTimer()
 {
