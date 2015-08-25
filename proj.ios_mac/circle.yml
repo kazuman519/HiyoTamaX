@@ -1,0 +1,13 @@
+general:
+  build_dir: api
+
+machine:
+  environment:
+    XCODE_SCHEME: Retty
+dependencies:
+  override:
+    - pod install:
+        timeout: 300
+test:
+  override:
+    - xcodebuild test -scheme HiyoTamaX -workspace HiyoTamaX.xcworkspace -destination 'name=iPhone 6'
